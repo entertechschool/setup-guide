@@ -4,6 +4,8 @@ Los siguientes pasos te ayudarán a configurar tu sistema con las aplicaciones y
 
 ¡**ABRE TU TERMINAL** y comencemos!
 
+> Ten en cuenta que los mensajes de error podrían estar en español o incluso en inglés.
+
 ---
 
 ### [⇐ Anterior](../../README.md) | [Siguiente ⇒](./1-environment.md)
