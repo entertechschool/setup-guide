@@ -1,9 +1,9 @@
-# Setting up your development environment
+﻿# Configurando tu entorno de desarrollo
 
-The next series of steps will walk you through getting your system setup with the proper applications and settings for Linux.
+Los siguientes pasos te ayudarán a configurar tu sistema con las aplicaciones y opciones adecuadas para Linux.
 
-**OPEN YOUR TERMINAL** and let's get started!
+¡**ABRE TU TERMINAL** y comencemos!
 
 ---
 
-### [⇐ Previous](../../README.md) | [Next ⇒](./1-environment.md)
+### [⇐ Anterior](../../README.md) | [Siguiente ⇒](./1-environment.md)

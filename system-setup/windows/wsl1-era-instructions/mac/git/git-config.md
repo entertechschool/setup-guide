@@ -1,44 +1,44 @@
-# Git Config
+﻿# Configuración de Git
 
-## Make sure you have your Github username and password.
+## Asegúrate de tener tu nombre de usuario y contraseña de GitHub
 
 <img src="../images/github-example.png" width="500" height="500">
 
-**Run** all three `commands` below ...  **one at a time.**
+**Ejectua** los tres `comandos` a continuación...  **uno por uno.**
 
-NOTE: Use single quotations as below.
+NOTA: Utiliza las comillas simples como se indica.
 
 ```
-git config --global user.name 'REPLACE WITH YOUR GITHUB USERNAME'
+> git config --global user.name 'REEMPLAZA CON TU NOMBRE DE USUARIO DE GITHUB'
 ```
 ```
-git config --global user.email 'REPLACE WITH YOUR EMAIL'
+git config --global user.email 'REEMPLAZA CON TU CORREO'
 ```
 ```
 git config --global core.editor 'code --wait'
 ```
 ---
-**Now run:**
+**Ahora ejecuta:**
 
 `cat ~/.gitconfig`
 
-Expected output:
+Output esperado:
 
 ```
 [core]
 	editor = code --wait
 [user]
-	name = yourUserName
-	email = yourEmail@mail.com
+	name = tuNombreDeUsuario
+	email = tuEmail@gmail.com
 ```
 
 ---
 
-Did you get the expected output?
+¿Obtuviste el output esperado?
 
-[Yes](../vs-code/extensions.md)
+[Sí](../vs-code/extensions.md)
 
 [No](../../error/error.md)
 
 ---
-### [⇐ Previous](../git/install-git.md)
+### [⇐ Anterior](../git/install-git.md)

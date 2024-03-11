@@ -1,36 +1,36 @@
-# Install Homebrew
+﻿# Instala Homebrew
 
-NOTE: Be sure to agree when asked to install the XCode Command Line Tools.  You will be prompted to enter your mac password.  **You will not be able to see what you are typing but it is registering your key-strokes.**
+NOTA: Asegúrate de aceptar cuando te pida instalar las Herramientas de Línea de Comandos de Xcode.  Se te pedirá ingresar tu contraseña de mac. **No podrás ver lo que estás escribiendo pero está registrando las teclas que presionas.**
 
-**Run** this entire command in your terminal:
+**Ejecuta** este comando en tu terminal:
 
 `ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"`
 
-This could take up to 30 minutes or more. Once finished **run:**
+Esto podrá tardar 30 minutos o más. Una vez que haya terminado, **ejecuta:**
 
  `brew doctor`
 
-**If** return output is:
+**Si** el output de respuesta es:
 
  ```
  Your system is ready to brew
 ```
 
-**then run:**
+**entonces ejecuta:**
 
 `brew update`
 
-[Continue to next step](../tree/tree.md)
+[Continúa con el siguiente paso](../tree/tree.md)
 
 ---
 
-**Else**  return output is:
+**O si** el output de respuesta es:
 
 ```
 -bash: brew: command not found
 ```
 
-**or** anything weird **then** [click here](../../error/error.md)
+**o** algo extraño **entonces** [haz click aquí](../../error/error.md)
 
 ---
-### [⇐ Previous](check.md)
+### [⇐ Anterior](check.md)

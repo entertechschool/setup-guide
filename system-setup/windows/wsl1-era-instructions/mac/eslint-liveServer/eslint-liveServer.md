@@ -1,26 +1,26 @@
-# Install ESLint and Live-Server
+﻿# Instala ESLint y Live-Server
 
-**Run:**
+**Ejecuta:**
 
 `npm -g i eslint git-open live-server`
 
-You should see a lot of feedback as it installs.
+Obtendrás bastante feedback mientras se instala.
 
-After it has completed,  **run:**
+Después de que se haya completado, **ejecuta:**
 
 `eslint --version`
 
-You should see something similar:
+Deberás ver algo parecido a:
 
 ```
 v6.7.2
 ```
 
-**run:**
+**ejecuta:**
 
 `live-server --version`
 
-You should see something similar:
+Deberás ver algo parecido a:
 
 ```
 live-server 1.2.1
@@ -28,12 +28,12 @@ live-server 1.2.1
 
 ---
 
-Did you get similar output for both?
+¿Obtuviste un output similar para ambos comandos?
 
-[Yes](../git/install-git.md)
+[Sí](../git/install-git.md)
 
 [No](../../error/error.md)
 
 ---
 
-### [⇐ Previous](../node/node.md)
+### [⇐ Anterior](../node/node.md)

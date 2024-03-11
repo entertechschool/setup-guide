@@ -1,11 +1,11 @@
-# Setting up your development environment
+﻿# Configurando tu entorno de desarrollo
 
-The next series of steps will walk you through getting your system setup with the proper applications and settings for macOS.
+Los siguientes pasos te ayudarán a configurar tu sistema con las aplicaciones y opciones adecuadas para macOS.
 
-**OPEN YOUR TERMINAL** and let's get started!
+¡**ABRE TU TERMINAL** y comencemos!
 
-Unless it's already in your Dock, the easiest way to open Terminal (which you'll have to do often) is by launching Spotlight Search with command-space, and typing "term". You should then be able to hit the enter key to launch it. Once it's running, drag the Dock icon to the left to keep it in your Dock, even after it's closed.
+A menos que ya esté en tu Dock, la forma más sencilla de abrir el Terminal (lo cual tendrás que hacer seguido) es ejecutando la búsqueda de Spotlight con command-espacio y escribiendo "term". Entonces deberás presionar enter para ejecutarlo. Una vez que se ejecute, arrastra el ícono de Dock a la izquierda para mantenerlo ahí, incluso después de que lo cierres.
 
 ---
 
-### [⇐ Previous](../../README.md) | [Next ⇒](./1-environment.md)
+### [⇐ Anterior](../../README.md) | [Siguiente ⇒](./1-environment.md)

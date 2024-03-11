@@ -1,53 +1,53 @@
-## Install VSCode Text Editor
+﻿## Instalar el Editor de Texto VSCode 
 
-Now it's time to install VSCode Text Editor, a sophisticated text editor for code, markup, and prose.
+Ahora, es momento de instalar VSCode, un sofisticado editor de texto para código, marcado y prosa.
 
-To get started, download [VSCode](https://code.visualstudio.com/download), and after it is installed, launch the application.
+Para comenzar, descarga [VSCode](https://code.visualstudio.com/download), y una vez que esté instalado, ejecuta la aplicación.
 
-[VSCode's documentation](https://code.visualstudio.com/docs) is excellent. Review it now to familiarize yourself with the basics.
+La [documentación de VSCode](https://code.visualstudio.com/docs) es excelente. Revísalo ahora para familiarizarte con los conceptos básicos.
 
-### Install shell commands
+### Instala los comandos de shell
 
-Open the **Command Palette** (⇧⌘P) and type 'shell command'
+Abre la **Paleta de Comandos** (⇧⌘P) y escribe 'shell command'
 
-Then, click the **Shell Command: Install 'code' command in PATH** command.
+Luego, haz click en el **Shell Command: Install 'code' command in PATH**
 
-Restart the terminal for the new $PATH value to take effect. 
+Reinica el terminal para que el nuevo valor $PATH haga efecto. 
 
-### Associate VSCode with Git
+### Asocia VSCode con Git
 
-Type the following command in your terminal:
+Ejecuta el siguiente comando en tu terminal:
 `git config --global core.editor "code --wait"`
 
-This command will not return any message unless there is an error.
+Este comando no te dará ningún mensaje a menos que haya un error.
 
-### Install Node
+### Instala Node
 
-To install Node, open your Terminal and copy and paste the following line, then hit Enter:
+Para instalar Node, abre tu Terminal y copia y pega la siguiente línea, luego presiona Enter:
 
 `sudo apt-get install nodejs`
 
-Afterwards, you'll want to install Node Package Manager (NPM).
+Después, tendrás que instalar Node Package Manager (NPM).
 
 `sudo apt-get install npm`
 
-If you run into issues trying to install Node from these steps, please contact your instructor.
+Si encuentras algún error tratando de instalar Node con estos pasos, por favor contacta a tu instructor.
 
-It will take a few minutes for the download and installation process to complete.
+Tomára unos minutos para que los procesos de descarga e instalación se completen.
 
-### Install ESLint
+### Instala ESLint
 
-Now that you have Node installed, you can install Node packages using its package manager, **NPM**. Open your terminal and enter:
+Ahora que tienes Node instalado, puedes instalar paquetes de Node utilizando su administrador de paquetes, **NPM**. Abre tu terminal e ingresa:
 
 `npm -g i eslint git-open`
 
-You should see a lot of feedback as it installs.
+Obtendrás bastante feedback mientras se instala.
 
-# Final Steps
+# Últimos Pasos
 
-### VSCode Extensions
+### Extensiones de VSCode
 
-1. To add extensions to VSCode, open up VSCode. On the bottom left hand side you will see a cog icon.  Click this and select extensions. A side-bar will slide out and at the top you can search for the listed extensions below and click the green 'Install' button:
+1. Para añadir extensiones a VSCode, abre VSCode. En la parte inferior izquierda verás el ícono de una tuerca.  Haz click ahí y selecciona extensiones. Se abrirá una barra lateral y en la parte superior podrás buscar extensiones que se enumeran a continuación y hacer click en el botón verde 'Instalar':
 
   - live server 5.6.1
   - ESLint 2.0.13
@@ -55,9 +55,9 @@ You should see a lot of feedback as it installs.
   - HTML Preview 0.2.5
   - Debugger for Chrome
 
-### Verification
+### Verificación
 
-#### By the time you’ve completed the guide, you should be able to run the following commands in your terminal:
+#### Cuando hayas completado la guía, deberías poder ejecutar los siguientes comandos en tu terminal:
 
 - code --version
 - git --version
@@ -68,9 +68,9 @@ You should see a lot of feedback as it installs.
 - echo $PS1
 - cat ~/.gitconfig
 - code
-  - should open VScode
+  - se debería abrir VSCode
 
-#### Each command should report a version number of what’s installed (should look *similar* to below example). Should you run across any errors that give you trouble please get a hold of contact below:
+#### Cada comando deberá informar un número de versión de lo que está instalado (se deberá ver *parecido* al siguiente ejemplo). En caso de que encuentres errores que te causen dificultad, por favor ponte en contacto más abajo:
 
 ``` 
 username@user $ code --version
@@ -96,11 +96,11 @@ username@user $ cat ~/.gitconfig
 	name = yourgithubusername
 	email = youremail
 username@user $ code
-//should open VSCode
+//se debería abrir VSCode
 ```
 ---
 
 
-## THE END! 
+## ¡FIN! 
 
-### [⇐ Previous](3_git.md) | [Back to README ⇒](../../../../)
+### [⇐ Anterior](3_git.md) | [De vuelta al README ⇒](../../../../)

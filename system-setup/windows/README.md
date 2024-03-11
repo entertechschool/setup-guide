@@ -1,9 +1,9 @@
-# Setting up your development environment
+﻿# Configurando tu entorno de desarrollo
 
-The next series of steps will walk you through getting your system setup with the proper applications and settings.
+Los siguientes pasos te ayudarán a configurar tu sistema con las aplicaciones y opciones adecuadas.
 
-Let's get started!
+¡Comencemos!
 
 ---
 
-### [⇐ Previous](../../README.md) | [Next ⇒](./1-gitbash.md)
+### [⇐ Anterior](../../README.md) | [Siguiente ⇒](./1-gitbash.md)

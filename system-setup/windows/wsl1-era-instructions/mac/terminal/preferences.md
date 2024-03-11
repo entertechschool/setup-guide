@@ -1,20 +1,20 @@
-# Terminal > Preferences
+﻿# Terminal > Ajustes
 
-Go to Terminal menu > Preferences > General tab
+Ve al menú del Terminal > Ajustes > General
 
-Make yours look like the image below:
+Haz que el tuyo se vea como la imagen a continuación:
 
 <img src="../images/bash.png" width="500" height="400">
 
-**Close** this window and quit the Terminal
+**Cierra** esta ventana y sal del Terminal
 
-Reopen a new terminal.
+Abre un terminal nuevo.
 
-**Run:**
+**Ejecuta:**
 
 `echo $SHELL`
 
-Expected output should be:
+El output esperado deberá ser:
 
 ```
 /bin/bash
@@ -22,11 +22,11 @@ Expected output should be:
 
 ---
 
-Did you get the expected output?
+¿Obtuviste el output esperado?
 
-[Yes](../git/git-prompt.md)
+[Sí](../git/git-prompt.md)
 
 [No](../../error/error.md)
 
 ---
-### [⇐ Previous](zsh.md)
+### [⇐ Anterior](zsh.md)

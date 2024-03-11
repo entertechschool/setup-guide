@@ -1,14 +1,14 @@
-# Install Tree
+﻿# Instalar Tree
 
-**Run:**
+**Ejecuta:**
 
  `brew install tree`
 
-Verify tree is installed by **running:**
+Verifica que tree está instalado **ejecutando:**
 
  `tree --version`
 
-Expected Output: 
+Output esperado: 
 
 ```
 tree v1.8.0 (c) 1996 - 2018 by Steve Baker, Thomas Moore, Francesc Rocher, Florian Sesser, Kyosuke Tokoro
@@ -16,11 +16,11 @@ tree v1.8.0 (c) 1996 - 2018 by Steve Baker, Thomas Moore, Francesc Rocher, Flori
 
 ---
 
-Did you get the expected output?
+¿Obtuviste el output esperado?
 
-[Yes](../vs-code/check-vscode.md)
+[Sí](../vs-code/check-vscode.md)
 
 [No](../../error/error.md)
 
 ---
-### [⇐ Previous](../homebrew/check.md)
+### [⇐ Anterior](../homebrew/check.md)

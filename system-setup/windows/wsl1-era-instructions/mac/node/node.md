@@ -1,38 +1,38 @@
-# Install Node & NPM
+﻿# Instala Node y NPM
 
-**Run:**
+**Ejecuta:**
 
 `brew install node`
 
-It will take a few minutes for the download and installation process to complete.
+Tomára unos minutos para que los procesos de descarga e instalación se completen.
 
-After it is complete **run:**
+Después de que se haya completado, **ejecuta:**
 
 `node`
 
-Type `5+5` and hit `enter`
+Escribe `5+5` y presiona `enter`
 
-The result should be `10`.  If you get `11` your computer is broken.
+El resultado debería ser `10`.  Si obtienes `11` tu computadora se averió.
 
-**Quit** node by pressing **control C** two times.
+**Sal de** node presionando **control C** dos veces.
 
 ---
 
-**Run:**
+**Ejecuta:**
 
 `node --version`
 
-You should see something similar:
+Deberás ver algo parecido a:
 
 ```
 v10.16.0
 ```
 
-**Run:**
+**Ejecuta:**
 
 `npm --version`
 
-You should see something similar:
+Deberás ver algo parecido a:
 
 ```
 6.9.0
@@ -40,11 +40,11 @@ You should see something similar:
 
 ---
 
-Did you get similar output for both?
+¿Obtuviste un output similar para ambos comandos?
 
-[Yes](../eslint-liveServer/eslint-liveServer.md)
+[Sí](../eslint-liveServer/eslint-liveServer.md)
 
 [No](../../error/error.md)
 
 ---
-### [⇐ Previous](../vs-code/open-vscode.md)
+### [⇐ Anterior](../vs-code/open-vscode.md)

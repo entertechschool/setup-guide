@@ -1,17 +1,17 @@
-# Prompt Setup
+﻿# Configuración de la línea de comandos
 
-**Run:**
+**Ejecuta:**
 
 `nano ~/.bash_profile`
 
-Your Nano editor will open.
+El editor Nano se abrirá.
 
-Copy and paste the following code into the editor, **underneath any existing code in this file:**
+Copia y pega el siguiente código en el editor **debajo de cualquier texto ya escrito en el archivo.**
 
 ```
 #!/usr/bin/env bash
 
-# get current branch in git repo
+# obtén la rama actual del repositorio en git
 function parse_git_branch() {
 	BRANCH=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
 	if [ ! "${BRANCH}" == "" ]
@@ -23,7 +23,7 @@ function parse_git_branch() {
 	fi
 }
 
-# get current status of git repo
+# obtén el estado actual del repositorio en git
 function parse_git_dirty {
 	status=`git status 2>&1 | tee`
 	dirty=`echo -n "${status}" 2> /dev/null | grep "modified:" &> /dev/null; echo "$?"`
@@ -103,15 +103,15 @@ verify(){
 }
 ```
 
-**Next** press `control X` to save.
+**Después** presiona `control X` para guardarlo.
 
-**Then** Type `y` to verify changes.
+**Luego** escribe `y` para verificar los cambios.
 
-**Hit** `return` to exit Nano editor.
+**Presiona** `enter` para salir de Nano.
 
-## **Now close the terminal and open a new terminal window for changes to take effect.** 
+## **Ahora cierra el terminal y abre una ventana nueva para que los cambios hagan efecto.** 
 
-Expected message:
+Mensaje esperado:
 
 ```
 ✓ Prompt is Ready macUserName 
@@ -119,11 +119,11 @@ Expected message:
 
 ---
 
-Did you get the expected message in your new terminal?
+¿Obtuviste el mensaje esperado en tu nuevo terminal?
 
-[Yes](../homebrew/check.md)
+[Sí](../homebrew/check.md)
 
 [No](../../error/error.md)
 
 ---
-### [⇐ Previous](../terminal/setup.md)
+### [⇐ Anterior](../terminal/setup.md)

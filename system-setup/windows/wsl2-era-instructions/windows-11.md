@@ -1,57 +1,57 @@
-# Setting up WSL Version 2 and the Ubuntu app
+﻿# Configurando WSL versión 2 y la aplicación de Ubuntu
 
-## Overview
+## Resumen
 
-Windows has released a feature available to all PCs running on Windows 11 called Windows Subsystem for Linux, otherwise known as WSL. WSL gives you the ability to add a Linux distribution (aka "distro"), like Ubuntu Linux, and connect it directly to the Windows File System.
+Windows ha lanzado una funcionalidad disponible para todas las PCs con Windows 11 llamada Windows Subsystem for Linux, también conocido como WSL. WSL te da la capacidad de añadir una distribución de Linux (también llamada "distro") como Ubuntu y conectarla directamente al Sistema de Archivos de Windows.
 
-This guide will show you how to set up Ubuntu on your PC, and use it for software development.
+Esta guía te mostrará cómo configurar Ubuntu en tu PC y utilizarlo para el desarrollo de software.
 
-## Install Instructions
+## Instrucciones de Instalación
 
-Please read through these steps before getting started
+Por favor lee cada uno de estos pasos antes de comenzar
 
-### Install the most recent version of Windows 11
+### Instala la versión más reciente de Windows 11
 
-For setting up a modern development environment on Windows 11, we will require that you're running the latest version and have WSL Version 2 installed.
+Para configurar un entorno de desarrollo moderno en Windows 11, necesitamos que estés ejecutando la versión más reciente y tengas WSL Versión 2 instalado.
 
-### Enable WSL Feature in Windows
+### Activa la Funcionalidad WSL en Windows.
 
-> **NOTE**: The following instructions are summarized from the [Microsoft WSL2 Installation Documentation](https://docs.microsoft.com/en-us/windows/wsl/install){:target="_blank"}
+> **NOTA**: Las siguientes instrucciones son un resumen de la [Documentación de Instalación de Microsoft WSL2](https://docs.microsoft.com/es-es/windows/wsl/install){:target="_blank"}
 
-1. Open Powershell on your computer with administrative access (right click on powershell and run as administrator).
-2. Run the following commands:
+1. Abre Powershell en tu computadora con acceso administrativo (haz click derecho en powershell y en ejecutar como administrador).
+2. Ejecuta los siguientes comandos:
 
    ```bash
    wsl --install
    wsl --update
    ```
 
-3. You may be prompted to reboot your machine.
+3. Puede que se te indique reiniciar tu equipo.
 
-#### Verify that you are running WSL Version 2
+#### Verifica que estás ejecutando WSL Versión 2
 
-1. Open Powershell
-1. Run the following command:
+1. Abre Powershell
+1. Ejecuta el siguiente comando:
 
    - `wsl -l -v`
-   - You should see a report such as this, which should confirm your WSL Version
+   - Deberías ver un informe como este, el cual deberá confirmar tu versión de WSL
 
      ```bash
-     PS C:\Users\yourname> wsl -l -v
+     PS C:\Users\tunombre> wsl -l -v
      NAME                   STATE           VERSION
      Ubuntu-20.04           Running         2
      ```
 
-### Open the Ubuntu Application
+### Abre la Aplicación de Ubuntu
 
-This will be found in your start menu. It's a good idea to "Right Click" it's icon from the task bar and "Pin" it for easier access in the future.
+Esta se encontrará en tu menú de inicio. Es una buena idea "hacerle click derecho" a su ícono de la barra de tareas y "anclarlo" para acceder a él con facilidad en el futuro.
 
-> **TIP:** From now on when we refer to "Terminal" throughout this guide, you should open your Ubuntu Terminal application.
+> **CONSEJO:** A partir de ahora al referirnos "Terminal" en esta guía, deberás abrir la aplicación del Terminal de Ubuntu.
 
-### 4. Continue with this setup guide
+### 4. Continúa con esta guía de configuración
 
-Once you have your system configured as above, you are ready to complete the required software installation process.
+Una vez que tu sistema está configurado como se indicó, estás listo para completar el proceso de instalación de software necesario.
 
 ---
 
-### [⇐ Previous](../../README.md) | [Next ⇒](./README.md)
+### [⇐ Anterior](../../README.md) | [Siguiente ⇒](./README.md)

@@ -1,29 +1,29 @@
-# Install VSCode Text Editor
+﻿# Instalar el Editor de Texto VSCode 
 
-Now it's time to install the Visual Studio Code (VSCode) Text Editor, a sophisticated text editor for code, markup, and prose.
+Ahora, es momento de instalar Visual Studio Code (VSCode), un sofisticado editor de texto para código, marcado y prosa.
 
-> **Follow the below instructions in order**, paying attention to any notes specific to your operating system.
+> **Sigue las siguientes instrucciones en orden**, presta atención a las anotaciones específicas para tu sistema operativo.
 
 ---
 
-## Get Started
+## Comencemos
 
-- Download [VSCode](https://code.visualstudio.com/download) and install.
-- If this window displays during set up, be sure the following boxes are selected
+- Descarga [VSCode](https://code.visualstudio.com/download) e instálalo.
+- Si esta ventana aparece durante la configuración, asegúrate de que las siguientes casillas estén seleccionadas
   ![VSCode](../vscode.png)
 
-- Open VSCode
-- On the bottom left hand side you will see a settings ("gear") icon.
-- Click this, then select "Extensions".
-- A sidebar will slide out and at the top you can search for extensions.
+- Abre VSCode
+- En la parte inferior izquierda verás un ícono de ajustes (una "tuerca").
+- Haz click ahí y luego selecciona "Extensiones".
+- Se abrirá una barra lateral y en la parte superior podrás buscar extensiones.
 
 ---
 
-### Install Additional Required VSCode Extensions
+### Instala las Extensiones Adicionales Necesarias para VSCode
 
-We'll now be adding some functionality to your new code editor with a few more extensions.
+Ahora añadiremos algunas funcionalidades a tu nuevo editor de código con unas extensiones.
 
-Search for and install the following extensions:
+Busca e instala las siguientes extensiones:
 
 - liveserver
 - ESLint
@@ -32,10 +32,10 @@ Search for and install the following extensions:
 - HTML Preview
 - Thunder Client
 
-There are many other extensions to choose from that will make your coding life a lot easier. Your instructors, TAs and classmates will all be great resources as to what works well for them.
+Hay más extensiones para escoger que harán más sencilla tu vida como programador. Tus instructores, TA y compeñeros podrán decirte lo que funciona mejor para ellos.
 
-[VSCode's documentation](https://code.visualstudio.com/docs) is excellent. Review it now to familiarize yourself with the basics.
+La [documentación de VSCode](https://code.visualstudio.com/docs) es excelente. Revísalo ahora para familiarizarte con los conceptos básicos.
 
 ---
 
-### [⇐ Previous](./2-gh.md) | [Next ⇒](./4-node.md)
+### [⇐ Anterior](./2-gh.md) | [Siguiente ⇒](./4-node.md)

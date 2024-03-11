@@ -1,6 +1,6 @@
-# Tree
+﻿# Tree
 
-Tree is a useful application that will allow you to look at a directory structure and files that are in a directory. Here is an example of what the output might look like after running the `tree` command:
+Tree es una aplicación útil que te permitirá mirar a la estructura del directorio y los archivos que se encuentran ahí. Este es un ejemplo de cómo se debería ver el output después de ejecutar el comando `tree`:
 
 ```text
 ── courses
@@ -10,40 +10,40 @@ Tree is a useful application that will allow you to look at a directory structur
 
 ---
 
-## Verify if Tree is already installed:
+## Verifica si Tree está instalado:
 
-**_If this is your first time going through the setup guide on your current machine, skip this "Verify" section and move on to the "Install" section below_**
+**_Si esta es la primera vez que pasas por la guía de configuración en tu equipo actual, sáltate la sección "Verificar" y ve a la sección "Instalar" más abajo_**
 
-In your terminal, run:
+En tu terminal, ejecuta:
 
 - `tree --version`
 
-> **IF** the output is this version or higher:
+> **SI** el output es esta versión o superior:
 >
 > ```bash
 > 0.6.7
 > ```
 >
-> Continue to the [next page](./7-eslint.md)
+> Continúa a la [siguiente página](./7-eslint.md)
 >
 > ---
-> **else if** the output is not similar to the above:
+> **O si** el output no es similar a lo anterior:
 >
-> Continue with instructions on this page.
+> Continúa con las instrucciones en esta página.
 
 ---
 
-## Install Tree
+## Instala Tree
 
-In your terminal, run:
+En tu terminal, ejecuta:
 
 - `npm install -g tree-cli`
 
-Once it completes, verify `tree` is installed by running the command:
+Una vez que se complete, verifica si `tree` está instalado ejecutando el comando:
 
 - `tree --version`
 
-Expected output should match this version, or higher:
+El output esperado deberá ser esta versión o superior:
 
 > ```bash
 > 0.6.7
@@ -51,4 +51,4 @@ Expected output should match this version, or higher:
 
 ---
 
-### [⇐ Previous](./4-node.md) | [Next ⇒](./6-eslint.md)
+### [⇐ Anterior](./4-node.md) | [Siguiente ⇒](./6-eslint.md)

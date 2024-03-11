@@ -1,43 +1,43 @@
-# ZSH
+﻿# ZSH
 
- **NOTE:** Your terminal will not show you what you are typing.  Type slowly and make sure it is correct.  If correct, you will not get a response.
+ **NOTA:** Tu terminal no te mostrará lo que estás escribiendo.  Escribe lentamente y asegúrate de que sea correcto.  Si es correcto, no obtendrás una respuesta.
 
-**Run:**
+**Ejecuta:**
 
  `chsh -s /bin/bash`
 
-You will be prompted to enter your _mac password_ followed by the `enter` key.
+Se te indicará que ingreses tu _contraseña de mac_ seguido de la tecla `enter`.
 
 ```
-Changing shell for macUserName.
-Password for macUserName:
+Changing shell for NombreDeUsuarioDemac.
+Password for NombreDeUsuarioDemac:
 ```
 
-**If** you get the error:
+**Si** obtienes el error:
 
 ```
 chsh: Credentials could not be verified, username or password is invalid.  
 ```
 
-**repeat the `command` above**,  followed by your _mac password_ and the `enter` key.
+**repite el `comando` anterior**,  seguido de tu _contraseña de mac_ y la tecla `enter`.
 
-**If** you do not get a response, **then** quit the terminal and reopen a new terminal window.  (Continue below)
+**Si** no obtienes una respuesta, **entonces** sal del terminal y vuelve a abrir una nueva ventana del terminal.  (Continúa abajo)
 
 ---
 
-**NOTE:**  You might see a message: `default interactive shell is now zsh`.  This will go away after setup is complete.
+**NOTA:**  Puede que veas un mensaje: `default interactive shell is now zsh`.  Esto desaparecerá cuando se complete la configuración.
 
-Disregard any messages and **run:**
+Ignora cualquier mensaje y **ejecuta:**
 
  `echo $0`
 
-**Click** the resulting output.
+**Haz click** en el output.
 
 [-bash](../git/git-prompt.md) 
 
 [-zsh](preferences.md)
 
-[None of above](preferences.md)
+[Ninguno de los anteriores](preferences.md)
 
 ---
-### [⇐ Previous](setup.md)
+### [⇐ Anterior](setup.md)

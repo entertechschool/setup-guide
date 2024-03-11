@@ -1,16 +1,16 @@
-## Prompt
+﻿## Línea de Comandos
 
-Students start with setting up the prompt and bash profile.
+Los alumnos comenzarán configurando la línea de comandos y el perfil de bash.
 
 ## Terminal
 
-open terminal
-Preferences > General > bin/bash > default
-settings > Pro > defualt
-> close and restart
+abre el terminal
+Preferencias > General > bin/bash > por defecto
+ajustes > Pro > por defecto
+> ciérralo y reinicia
 
 ## Homebrew
-which brew ? 
+¿cuál brew? 
 
  > ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/install/master/install)"
 
@@ -23,24 +23,24 @@ which brew ?
 ## Vs code 
 https://code.visualstudio.com/download
 
-Download the .zip file.
-Double-click the .zip file (or click the downloaded file at the bottom of Chrome) to extract the shiny VS Code app.
-Drag the shiny VS Code app into your Applications folder.
-Open the app. (If you opened the app before it was in your Applications folder, you’ll need to reinstall.)
+Descarga el archivo .zip.
+Haz doble click al archivo .zip (o haz click en el archivo descargado en la parte inferior de Chrome) para extraer la nueva aplicación de VS Code.
+Arrastra la aplicación de VS Code a tu carpeta de Aplicaciones.
+Abre la aplicación. (Si abriste la aplicación antes de que estuviera en tu carpeta de Aplicaciones, tendrás que reinstalarla.)
 
-### Setup 
-Open VSCode > Command Palette (⇧⌘P) > ‘shell command’ > click on the Shell Command: Install ‘code’ command in PATH command. > Restart 
+### Configuración 
+Abre VSCode > Paleta de Comandos (⇧⌘P) > ‘shell command’ > Haz click en el Comando de Shell: Instala el comando  ‘code’  en PATH. > Reincia 
 
-## Node & NPM
- > brew install node  > sudo maybe ?
+## Node y NPM
+ > brew install node  > sudo ¿quizás?
 
-## ESLint & Live Server
+## ESLint y Live Server
  > npm -g i eslint git-open live-server
 
 ## Git
-apple menu > about > version to see build
+menú de apple > acerca de > versión para ver el build
 
-If you are running:
+Si estás ejecutando:
 
 10.6 Snow Leopard / .7 Lion / .8 Mountain Lion : 
  > http://sourceforge.net/projects/git-osx-installer/files/git-2.3.5-intel-universal-snow-leopard.dmg/download
@@ -48,26 +48,26 @@ If you are running:
 10.9 Mavericks: 
  > http://sourceforge.net/projects/git-osx-installer/files/git-2.5.3-intel-universal-mavericks.dmg/download
 
-10.10 Yosemite or higher:
+10.10 Yosemite o superior:
  > brew install git.
 
-### GitConfig
- > git config --global user.name 'YOUR Github user name'
- > git config --global user.email 'YOUR EMAIL in github'
+### Configuración de Git
+ > git config --global user.name 'TU nombre de usuario de Github'
+ > git config --global user.email 'TU CORREO en github'
 
  > git config --global core.editor 'code --wait'
 
  > git config --global credential.helper store
 
-## Prompt
+## Línea de Comandos
  > nano ~/.bash_profile
 
->>>>>>> Copy >>>>>>>
+>>>>>>> Copia >>>>>>>
 
 ```
 #!/usr/bin/env bash
 
-# get current branch in git repo
+# obtén la rama actual del repositorio en git
 function parse_git_branch() {
 	BRANCH=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
 	if [ ! "${BRANCH}" == "" ]
@@ -79,7 +79,7 @@ function parse_git_branch() {
 	fi
 }
 
-# get current status of git repo
+# obtén el estado actual del repositorio en git
 function parse_git_dirty {
 	status=`git status 2>&1 | tee`
 	dirty=`echo -n "${status}" 2> /dev/null | grep "modified:" &> /dev/null; echo "$?"`
@@ -160,9 +160,9 @@ verify(){
 ```
 >>>>>>>>>>>>>>>>>>>>
 
-Control X > y > hit enter > restart terminal
+Control X > y > presiona enter > reiniciar terminal
 
- ## Extensions
+ ## Extensiones
 
  > mkdir codefellows
  > cd codefellows
@@ -177,7 +177,7 @@ HTML Snippets 0.2.1
 HTML Preview 0.2.5
 Debugger for Chrome
 
-close vs code
+cierra vs code
 
 
 

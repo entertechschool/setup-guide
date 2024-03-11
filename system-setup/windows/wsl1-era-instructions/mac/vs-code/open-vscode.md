@@ -1,22 +1,22 @@
-# Open VS Code
+﻿# Abre VS Code
 
-**Open** VS Code application.
+**Abre** la aplicación VS Code.
 
-In menu bar> **find** View > Command Palette > **search** `shell command` > **click** on `Shell Command: Install 'code' command in PATH`
+En la barra del menú > **encuentra** Visualización > Paleta de Comandos > **busca** `shell command` > **haz click** en `Shell Command: Instala el comando 'code' en PATH`
 
-**Close** VS Code and your terminal.
+**Cierra** VS code y tu terminal.
 
-**Open** new terminal and **run:**
+**Abre** un nuevo terminal y **ejecuta:**
 
  `code`
 
  ---
 
-Did this open a new instance of VS Code?
+¿Se abrió una nueva instancia de VS Code?
 
-[Yes](../node/node.md)
+[Sí](../node/node.md)
 
 [No](../../error/error.md)
 
 ---
-### [⇐ Previous](../vs-code/check-vscode.md)
+### [⇐ Anterior](../vs-code/check-vscode.md)

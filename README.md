@@ -1,27 +1,27 @@
-# Computer Setup Instructions
+﻿# Instrucciones de Configuración de la Computadora
 
-Whether you are starting class, needing to set up a new system, or re-install proper config on an existing system, these steps will walk you through how to prepare your computer for technical coursework.
+Ya sea que estás comenzando con la clase, necesitas configurar un nuevo sistema o reinstalar la configuración adecuada para un sistema ya existente, estos pasos te ayudarán a preparar tu computadora para las actividades técnicas.
 
-**This setup should be done in a single session.**  Please allow a minimum of **1** hour to complete.
+**Esta configuración se deberá completar en una sola sesión.** Por favor estima un mínimo de **1** hora para completarla.
 
-You do not need to understand what is happening in each step of this process. Getting everything configured correctly is a vital step that will allow you to use the technologies required throughout the curriculum.
+No necesitas entender todo lo que está pasando en cada paso de este proceso. Configurar todo correctamente es un paso vital que te permitirá utilizar las tecnologías necesitas a lo largo del programa.
 
-*NOTE: During this process, you will be required to download a few files. For this setup process please **right-click** on links to **open in a new tab** when asked to download and install. This is so you don't lose your place.*
+*NOTA: Durante este proceso, necesitarás descargar algunos archivos. Para este proceso de configuración, por favor haz **click derecho** en los enlaces para **abrirlos en una nueva pestaña** cuando se te pida para descargar e instalar. Esto es para que no te pierdas.*
 
-Get started by selecting the appropriate starting point below.
+Comienza seleccionando el punto de partida adecuado a continuación.
 
-## Software Development Courses
+## Cursos de Desarrollo de Software
 
-Begin by selecting your operating system:
+Comienza seleccionando tu sistema operativo:
 
-- Configure [macOS](./system-setup/mac/README.md)
-- Configure [Ubuntu Linux](./system-setup/linux/README.md)
-- Configure [Windows](./system-setup/windows/README.md)
+- Configura [macOS](./system-setup/mac/README.md)
+- Configura [Ubuntu Linux](./system-setup/linux/README.md)
+- Configura [Windows](./system-setup/windows/README.md)
 
-## Ops and Cybersecurity Courses
+##Ops y Cursos de Ciberseguridad
 
-- Configure [all operating systems](./ops-setup/1-update.md)
+- Configura [todos los sistemas operativos](./ops-setup/1-update.md)
 
-## Errors and Troubleshooting
+## Errores y Solución de Problemas
 
-If ever you encounter an error or unexplained activity, please consult the [error documentation](./error/error.md)
+Si te encuentras con un error o actividad inexplicable, por favor consulta la [documentación de errores](./error/error.md)

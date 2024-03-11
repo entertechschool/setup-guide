@@ -1,59 +1,59 @@
-# ESLint and Folder Structure
+﻿# ESLint y Estructura de Carpetas
 
-ESLint is a tool that will help you find and fix problems with your JavaScript. Think of it like using a spell checker or grammar checker, but for writing JavaScript!
+ESLint es una herramienta que te ayudará a encontrar y solucionar problemas con tu código en JavaScript. ¡Es como usar un corrector de ortografía o un corrector gramatical, pero para escribir JavaScript!
 
-This page will also be getting your folder structure set up. Where will you put your code projects? How will you organize between one class course and the next? We'll get you started.
+Esta página también te ayudará a configurar tu estructura de carpetas. ¿Dónde pondrás tus proyectos de programación? ¿Cómo te organizarás entre un curso y el siguiente? Vamos a comenzar.
 
 ---
 
-## Verify if ESLint is already installed
+## Verifica si ESLint ya está instalado
 
-**_If this is your first time going through the setup guide on your current machine, skip this "Verify" section and move on to the "Install" section below_**
+**_Si esta es la primera vez que pasas por la guía de configuración en tu equipo actual, sáltate la sección "Verificar" y ve a la sección "Instalar" más abajo_**
 
-In your terminal, run:
+En tu terminal, ejecuta:
 
 - `eslint --version`
 
-> **IF** the output is this version or higher:
+> **SI** el output es esta versión o superior:
 >
 > ```text
 > v8.1.0
 > ```
 >
-> Continue to the [next page](./10-vscode.md)
+> Continúa a la [siguiente página](./10-vscode.md)
 >
 > ---
-> **else if** the output is not similar to the above:
+> **O si** el output no es similar a lo anterior:
 >
-> Continue with instructions on this page.
+> Continúa con las instrucciones en esta página.
 
 ---
 
-## Install ESLint
+## Instala ESLint
 
-In your terminal, run the command:
+En tu terminal, ejecuta el comando:
 
 - `npm install -g eslint`
 
-You should see a lot of feedback as it installs. Verify eslint is installed by running the command:
+Obtendrás bastante feedback mientras se instala. Verifica que eslint esté instalado ejecutando el comando:
 
 - `eslint --version`
 
-Expected output should be this version or higher:
+El output esperado deberá ser esta versión o una superior:
 
 > ```text
 > v8.1.0
 > ```
 
-If not ... [head here](../../error/error.md)
+Si no... [dirígente aquí](../../error/error.md)
 
 ---
 
-## Setting Up Your Folder Structure
+## Configurando tu Estructura de Carpetas
 
-Can you predict what these commands will do?
+¿Puedes predicir lo que harán estos comandos?
 
-Type each of the following commands, one line at a time, to create a folder structure where you will store code on your computer:
+Escribe cada uno de estos comandos, uno por uno, para crear una estructura de carpetas en donde almacenarás el código en tu computadora:
 
 ```bash
 cd ~
@@ -64,26 +64,26 @@ cd courses
 pwd
 ```
 
-You should see an output similar to this:
+Deberías ver un output similar a esto:
 
 > ```bash
-> /home/your_user_name/projects/courses
+> /home/tu_nombre_de_usuario/projects/courses
 > ```
 
-The next step is to create another new directory for your current course, here inside the "courses" directory.
+El siguiente paso es crear otro nuevo directorio par tu curso actual, aquí dentro del directorio "courses".
 
-If you are in 102, create a 102 directory, if you are in 201, create a 201 directory, etc.
+Si estás en el curso 102, crea un directorio 102, si estás en el 201, crea un directorio 201, etc.
 
 > ```bash
-> # EXAMPLE
+> # EJEMPLO
 > mkdir code-102
-> # OR
+> # O
 > mkdir code-201
 > # ETC ...
 > ```
 
-That is where you will clone repositories and do your work for labs in this course.
+Ahí es donde clonarás repositorios y harás el trabajo de los laboratorios para este curso.
 
 ---
 
-### [⇐ Previous](./8-live-server.md) | | [Next ⇒](./10-vscode.md)
+### [⇐ Anterior](./8-live-server.md) | | [Siguiente ⇒](./10-vscode.md)

@@ -1,23 +1,23 @@
-# APT
+﻿# APT
 
-For some things on your system, we will be using Advanced Package Tool, referred to as `apt`, to install applications. The first thing we'll want to do is get that up to date with all of the latest versions and information.
+Para algunas cosas en el sistema, utilizaremos Advanced Package Tool, conocido como `apt`, para instalar aplicaciones. Lo primero que queremos hacer es actualizar con las últimas versiones e información.
 
 ---
 
-## Installing and Updating the Linux App Manager (APT)
+## Instalando y Actualizando el Administrador de Aplicaciones de Linux (APT)
 
-1. Run the command:
+1. Ejecuta el comando:
    - `sudo apt-get update`
-      - Provide your password, when prompted (**_Note:_** _You will not have any visual feedback on your screen as you type. It is protecting your password by not displaying ANYTHING at all to the screen, but it is registering your key strokes._)
-1. Once that is complete, run:
+      - Proporciona tu contraseña cuando se indique (**_Nota:_** _No tendrás ningún feedback visual en tu pantalla mientras escribres. Está protegiendo tu constraseña al no mostrar NADA en la pantalla, pero está registrando las teclas que pulsas._)
+1. Una vez que se haya completado, ejecuta:
    - `sudo apt-get upgrade`
-      - Press `y` when prompted.
-1. Once that is complete, run:
+      - Presiona `y` cuando te lo indiquen.
+1. Una vez que se haya completado, ejecuta:
    - `sudo apt autoremove`
-      - This will remove any packages that are no longer needed.
-1. Install the "Build Essentials" kit with this command:
+      - Esto eliminará los paquetes que ya no se necesitan.
+1. Instala el kit "Build Essentials" con este comando:
    - `sudo apt-get install build-essential`
 
 ---
 
-### [⇐ Previous](./1-environment.md) | [Next ⇒](./3-homebrew.md)
+### [⇐ Anterior](./1-environment.md) | [Siguiente ⇒](./3-homebrew.md)
