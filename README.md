@@ -18,9 +18,11 @@ Comienza seleccionando tu sistema operativo:
 - Configura [Ubuntu Linux](./system-setup/linux/README.md)
 - Configura [Windows](./system-setup/windows/README.md)
 
-##Ops y Cursos de Ciberseguridad
+<!--
+## Ops y Cursos de Ciberseguridad
 
 - Configura [todos los sistemas operativos](./ops-setup/1-update.md)
+-->
 
 ## Errores y Solución de Problemas
 
