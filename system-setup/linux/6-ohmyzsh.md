@@ -62,7 +62,7 @@ Vuelve a abrir tu terminar y ejecuta el siguiente comando para verificar que tod
   </ul>
 
   <strong>Si sigues obteniendo errores, <a href="../../error/error">haz click aquí</a> y no continúes con los siguientes pasos hasta que tengas Oh My Zsh debidamente instalado.</strong>
-
+</details>
 ---
 
 ## Marcador
