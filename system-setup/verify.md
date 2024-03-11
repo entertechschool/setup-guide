@@ -42,4 +42,4 @@ Deberías obtener un mensaje de éxito. Si en vez de eso ver `Something went wro
 
 ---
 
-### ¡Esto es todo! [De vuelva al inicio](../../README.md)
+### ¡Esto es todo! [De vuelva al inicio](/README.md)
