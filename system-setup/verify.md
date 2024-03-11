@@ -35,7 +35,7 @@ Si alguno de los comandos anteriores no te dio el output esperado, obtén [ayuda
 Ejecuta el siguiente comando
 
 ```bash
-curl -Ls https://bit.ly/3qMWhbE | bash
+curl -Ls https://bit.ly/enter-setup-verify-sh-1 | bash
 ```
 
 Deberías obtener un mensaje de éxito. Si en vez de eso ver `Something went wrong!`, mira el output con cuidado, y vuelve a intentar los pasos en la parte 1 para comenzar a solucionar los problemas. Obtén [ayuda](../../error/error.md) de ser necesario.
