@@ -1,9 +1,9 @@
-# Github
+﻿# GitHub
 
-Do you have a Github account?
+¿Tienes una cuenta de GitHub?
 
-**If** No [click here](https://github.com/) to set one up before continuing.
+**Si** no, [haz click aquí](https://github.com/) para configurar una antes de continuar.
 
-NOTE: Take note of your Github username and email.
+NOTA: Apunta tu nombre de usuario y correo de GitHub.
 
-**If** Yes, please [continue](../git/git-config.md).
+**Si** lo hiciste, por favor [continúa](../git/git-config.md).

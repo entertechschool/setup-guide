@@ -1,48 +1,48 @@
-# Install Git
+﻿# Instala Git
 
-Using APT, you can also install <a href="http://git-scm.com/" target="_blank">Git</a>, the version control system of choice among choosy developers.
+Utilizando APT, también puedes instalar <a href="http://git-scm.com/" target="_blank">Git</a>, el sistema de control de versiones preferido por los desarrolladores más exigentes.
 
-To get started, run the following command.
+Para comenzar, ejecuta el siguiente comando.
 
 ```
 sudo apt-get install -y git
 ```
 
-## Git Config
+## Configuración de Git
 
-Like artists, programmers sign their work. Let's configure Git to sign your commits with your name and email address.
+Al igual que los artistas, los programadores firman su trabajo. Vamos a configurar Git para firmar tus commits con tu nombre y tu dirección de correo.
 
-Make sure you sign up for an account at Github <a href="https://github.com" target="_blank">here</a>.
+Asegúrate de registrarte para obtener una cuenta de Github <a href="https://github.com" target="_blank">aquí</a>.
 
-**WARNING:** Before running the following commands one line at at time, replace `YOUR FULL NAME` and `YOUR EMAIL ADDRESS` with the name and email from <a href="https://github.com/settings/profile" target="_blank">your GitHub account</a>.
-
-```
-git config --global user.name 'YOUR FULL NAME'
-```
+**ADVERTENCIA:** Antes de ejecutar los siguientes comandos uno por uno, reemplaza `TU NOMBRE COMPLETO` y `TU CORREO ELECTRÓNICO` con el nombre y correo de <a href="https://github.com/settings/profile" target="_blank">tu cuenta de GitHub</a>.
 
 ```
-git config --global user.email 'YOUR EMAIL ADDRESS'
+git config --global user.name 'TU NOMBRE COMPLETO'
+```
+
+```
+git config --global user.email 'TU CORREO ELECTRÓNICO'
 ```
 
 ```
 git config --global core.editor nano
 ```
 
-### Git Prompt Setup
+## Configuración de la línea de comandos de Git
 
-To get started, run the following command.
+Para comenzar, ejecuta el siguiente comando.
 
 ```
 nano ~/.bash_profile
 ```
 
-This will open the file in your command line editor Nano
+Esto abrirá el archivo en el editor de la línea de comandos, Nano
 
-Copy and paste this code into the editor, **underneath any existing content.**
+Copia y pega este código en el editor **debajo de cualquier texto ya escrito.**
 
 ```
 #!/usr/bin/env bash
-# get current branch in git repo
+# obtén la rama actual del repositorio en git
 function parse_git_branch() {
  BRANCH=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
  if [ ! "${BRANCH}" == "" ]
@@ -53,7 +53,7 @@ function parse_git_branch() {
   echo ""
  fi
 }
-# get current status of git repo
+# obtén el estado actual del repositorio en git
 function parse_git_dirty {
  status=`git status 2>&1 | tee`
  dirty=`echo -n "${status}" 2> /dev/null | grep "modified:" &> /dev/null; echo "$?"`
@@ -88,18 +88,18 @@ function parse_git_dirty {
  fi
 }
 
-# PS1 is what actually defines what you command line prompt looks like.
+# El PS1 es lo que define cómo se ve tu línea de comandos.
 export PS1="\[\e[31m\]\u\[\e[m\]\[\e[35m\]\w\[\e[m\]\[\e[33m\]\`parse_git_branch\`\[\e[m\]\[\e[32m\]\\$\[\e[m\] "
 ```
 
-Press `control X` to exit
+Presiona `control X` para salir
 
-Type `y` to verify changes
+Escribe `y` para verificar los cambios
 
-Hit `enter` to exit Nano
+Presiona `enter` para salir de Nano
 
-Now close terminal and open a new terminal window for changes to take effect.
-You will have a new prompt with additional Git and color-coded features.
-Don't worry about what this means for now. You will come to understand it's value very soon if you don't already.
+Ahora cierra el terminal y abre una ventana nueva para que los cambios hagan efecto.
+Ahora tendrás un nuevo terminal con funcionalidades adicionales de Git y codificadas por colores.
+No te preocupes acerca de lo que esto significa por ahora. Pronto entenderás su valor si aún no lo has hecho.
 
-### [⇐ Previous](2_apt.md) | [Next ⇒](4_vscode.md)
+### [⇐ Anterior](2_apt.md) | [Siguiente ⇒](4_vscode.md)

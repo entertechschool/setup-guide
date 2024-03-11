@@ -1,10 +1,10 @@
-# Check VS Code
+﻿# Verifica VS Code
 
-**Run:**
+**Ejecuta:**
 
  `code --version`
 
-**If** return output looks similar to: 
+**Si** el output de respuesta se ve parecido a: 
 
 ```
 1.43.1
@@ -12,17 +12,17 @@ fe22a9645b44368865c0ba92e2fb881ff1afce94
 x64
 ```
 
-**then** [continue to next step](../vs-code/open-vscode.md).
+**entonces** [continúa con el siguiente paso](../vs-code/open-vscode.md).
 
 ---
 
-**Else**  return output is:
+> **O si** el output de respuesta es:
 
 ```
 -bash: code: command not found
 ```
 
-Click here to continue to [VS Code for Mac](install.md)  
+Haz click aquí para continuar con [VS Code para Mac](install.md)  
 
 ---
-### [⇐ Previous](../tree/tree.md)
+### [⇐ Anterior](../tree/tree.md)

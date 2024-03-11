@@ -1,45 +1,45 @@
-# Verify Your Setup Part 1
+﻿# Verifica tu Configuración Parte 1
 
-> By the time you’ve completed the guide, you should be able to run the following commands in your terminal and see the expected output. Your versions may be slightly higher than what is listed here due to recent updates.
+> Cuando hayas completado la guía, deberás poder ejecutar los siguientes comandos en tu terminal y ver el output esperado. Tus versiones podrán ser un poco superiores a lo que está listado aquí debido a las actualizaciones recientes.
 
-Run these commands and compare them with the expected output.
+Ejecuta estos comandos y compáralos con el output esperado.
 
 - `code --version`
-  - Expected output: `1.64.2`
+  - Output esperado: `1.64.2`
 - `git --version`
-  - Expected output: `git version 2.34.1`
+  - Output esperado: `git version 2.34.1`
 - `node --version`
-  - Expected output: `v17.8.0`
+  - Output esperado: `v17.8.0`
 - `npm --version`
-  - Expected output: `8.3.0`
+  - Output esperado: `8.3.0`
 - `eslint --version`
-  - Expected output: `v8.1.0`
+  - Output esperado: `v8.1.0`
 - `tree --version`
-  - Expected output: `tree v2.0.1 (c) 1996 - 2018 ...`
+  - Output esperado: `tree v2.0.1 (c) 1996 - 2018 ...`
 - `git config --list`
-  - Should contain at least the following:
-  - `user.name=YOUR NAME`
-  - `user.email=YOUR EMAIL`
+  - Deberá contener por lo menos lo siguiente:
+  - `user.name=TU NOMBRE`
+  - `user.email=TU CORREO`
   - `core.editor=code --wait`
   - `init.defaultbranch=main`
-  - (Type the letter `q` to exit the config screen and return to the previous screen.)
+  - (Escribe la letra `q` para salir de la pantalla de configuración y volver a la pantalla anterior.)
 - `code .`
-  - Should open VS Code with your current folder contents
+  - Deberá abrir VS Code con el contenido de tu carpeta actual
 
-If any of the above commands do not give you the expected output, get [assistance](../../error/error.md).
+Si alguno de los comandos anteriores no te dio el output esperado, obtén [ayuda](../../error/error.md).
 
 ---
 
-## Verify Your Setup Part 2
+## Verifica tu Configuración Parte 2
 
-Run the following command
+Ejecuta el siguiente comando
 
 ```bash
 curl -Ls https://bit.ly/3qMWhbE | bash
 ```
 
-You should get a successful message. If instead you see `Something went wrong!`, look at the output carefully, and retry the steps in part 1 to begin troubleshooting. Get [assistance](../../error/error.md) as necessary.
+Deberías obtener un mensaje de éxito. Si en vez de eso ver `Something went wrong!`, mira el output con cuidado, y vuelve a intentar los pasos en la parte 1 para comenzar a solucionar los problemas. Obtén [ayuda](../../error/error.md) de ser necesario.
 
 ---
 
-### That's It! [Back To the Beginning](../../README.md)
+### ¡Esto es todo! [De vuelva al inicio](../../README.md)

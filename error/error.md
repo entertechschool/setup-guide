@@ -1,9 +1,9 @@
-# Handling Errors
+﻿# Manejando Errores
 
-Getting a weird error or something unexpected?
+¿Obtienes un error extraño o algo inesperado?
 
-The first step is to double-check that you are following the instructions carefully. It's ok to try again.
+El primer paso es revisar que sigues las siguientes instrucciones con cuidado. Está bien volverlo a intentar.
 
-If you continue to get an error, check your course syllabus for how to get in touch with your instructor or TAs.
+Si sigues obteniendo un error, revisa el sílabo del curso para contactar a tu instructor o TA.
 
-Don't hesitate to reach out! Many issues can be resolved very quickly by those who have been through this process before. Most people need a little assistance with this process at one point or another.
+¡No dudes en ponerte en contacto con nosotros! Muchos problemas se pueden resolver rápidamente si consultas a quienes ya han pasado por este proceso antes. La mayoría de personas necesitan un poco de ayuda con este proveso en algún momento u otro.

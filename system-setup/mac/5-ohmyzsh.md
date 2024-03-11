@@ -1,90 +1,90 @@
-# Oh My Zsh
+﻿# Oh My Zsh
 
-Now it's time to unleash your terminal's potential! In this section we'll update the terminal's look and feel, as well as add some color.
+¡Ahora es momento de desatar el potencial de tu terminal! En esta sección actualizaremos el aspecto y el estilo del Terminal, así como añadiremos algo de color.
 
 ---
 
-The following instructions are pulled from [Oh My Zsh.](https://ohmyz.sh/)
+Las siguientes instrucciones fueron extraídas de [Oh My Zsh.](https://ohmyz.sh/)
 
-In your terminal, run the following command to install Oh My Zsh:
+En tu terminal, ejecuta el comando para instalar Oh My Zsh:
 
 - `sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 
 <details>
-  <summary>Click <strong>HERE</strong> only if you see a message similar to this image:
+  <summary>Haz click <strong>AQUÍ</strong> solo si vez un mensaje similar al de esta imagen:
   </summary>
 
-  Congratulations! If you see this message in your terminal, it means Oh My Zsh is already installed. Continue to the <a href="./6-node">next page!</a>
+  ¡Felicidades! Si ves este mensaje en tu terminal significa que Oh My Zsh ya está instalado. ¡Continúa a la <a href="./6-node">siguiente página!</a>
 </details>
 
  <img src="../../images/oh-my-zsh-verification.png" />
  
 
-If you don't see a message in your terminal like the one above, continue with the setup steps.
+Si no ves un mensaje en tu terminal como el mostrado anteriormente, continúa con los pasos para la instalación.
 
-**NOTE:** You may get a questions asking if you want to update your terminal to `zsh`. **Select `yes` for this.** If any warnings or errors occur, be sure to complete what is being suggested or get help.
+**NOTA:** Puede que te pregunte si quieres actualizar tu terminal a `zsh`. **Selecciona `yes`.** Si aparece alguna advertencia o error, asegúrate de completar lo sugerido u obtén ayuda.
 
-> _AT THIS POINT YOU **`MUST`** RESTART YOUR TERMINAL_
+> _EN ESTE PUNTO **`DEBES`** REINICIAR TU TERMINAL_
 >
-> **Reminder:** closing the window does not fully close the program on Macs. Here are 3 ways you can close the program:
+> **Recordatorio:** cerrar la ventana no cierra por completo el programa en Mac. Aquí hay 3 formas en las que puedes cerrar el programa:
 >
-> - Right click the icon in your Dock and select "Quit"
-> - Type the "Command + q" keys anywhere in your terminal
-> - Quit the program from the menu at the top of your screen.
+> - Haz click derecho en el ícono de tu Dock y selecciona "Salir"
+> - Presiona las teclas "Command + q" en cualquer parte de tu terminal
+> - Sal del programa desde el menú en la parte superior de tu pantalla.
 
 ---
 
-## Confirming Setup
+## Confirmando la Configuración
 
-Re-open your terminal and run the following command to verify everything is still set up correctly:
+Vuelve a abrir tu terminar y ejecuta el siguiente comando para verificar que todo se haya configurado correctamente:
 
 - `brew --version`
 
 <details>
   <summary>
-  Click <strong>HERE</strong> if the output is <code>Homebrew 3.5</code> or higher
+  Haz click <strong>AQUÍ</strong> si el output es <code>Homebrew 3.5</code> o superior
   </summary>
 
-  You're ready to continue to the <a href="./6-node">next page.</a>
+  Estás listo para continuar con la <a href="./6-node">siguiente página.</a>
 
 </details>
 
 <details>
   <summary>
-  Otherwise click <strong>HERE</strong> if you get an error such as <code>zsh: command not found: brew</code>
+  De lo contrario haz click <strong>AQUÍ</strong> si recibes un error como <code>zsh: command not found: brew</code>
 
   </summary>
 
   <ul>
     <li>
-      Run the following commands:
+      Ejecuta los siguientes comandos:
       <ol>
         <li><code>echo 'export BREW_HOME="/home/linuxbrew/.linuxbrew/bin"' >> $HOME/.zshrc</code></li>
         <li><code>echo 'export PATH="$PATH:$BREW_HOME"' >> $HOME/.zshrc</code></li>
         <li><code>reset</code></li>
       </ol>
     </li>
-    <li> Check again for confirmation with the command:
+    <li>Vuelve a confirmarlo con el comando:
       <ul>
         <li><code>brew --version</code></li>
-        <li>You should see <code>Homebrew 3.5</code> or higher</li>
+        <li>Deberías ver <code>Homebrew 3.5</code> o superior</li>
       </ul>
     </li>
   </ul>
 
-  <strong>If you are still getting errors at this point, <a href="../../error/error">click here</a> and do not continue with the following steps until you have Oh My Zsh properly installed.</strong>
+  <strong>Si sigues obteniendo errores, <a href="../../error/error">haz click aquí</a> y no continúes con los siguientes pasos hasta que tengas Oh My Zsh debidamente instalado.</strong>
 
 </details>
 
 ---
 
-## Bookmark
+## Marcador
 
-Bookmark these sites to reference later through other classes as needed:
+Añade estos sitios a tus marcadores para tener como referencia después a lo largo de las clases si se necesita:
 
-- Lots of customization available on their [Github repo.](https://github.com/ohmyzsh/ohmyzsh/)
-- This is a link to a [cheatsheet.](https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet)
+- Bastante personalización disponible en su [repositorio de Github](https://github.com/ohmyzsh/ohmyzsh/)
+- Este es un enlace a una [hoja de referencia.](https://github.com/ohmyzsh/ohmyzsh/wiki/Cheatsheet)
 
 ---
 
-### [⇐ Previous](./4-tree.md) | [Next ⇒](./6-node.md)
+### [⇐ Anterior](./4-tree.md) | [Siguiente ⇒](./6-node.md)

@@ -1,16 +1,16 @@
-# Backup Your Terminal/Shell Environment
+﻿# Respalda tu Terminal/Entorno de Shell
 
-## Backing up files
+## Respaldando archivos
 
-The first thing we'll do is backup your existing terminal setup.
+Lo primero que haremos será respaldar tu configuración actual del terminal.
 
-There are a lot of ways that your terminal can be set up, determined by different configuration files.
+Hay varias formas en las que puedes configurar tu terminal, determinado por diferentes archivos de configuración.
 
-We want to remove the old ways so we can start with a clean slate.
+Queremos dejar atrás lo antiguo para comenzar en una hoja en blanco.
 
-Make back ups of the files listed below. You may get a `No such file or directory` error for some of them. That's ok.
+Haz respaldos de los archivos enlistados a continuación. Puede que obtengas algunos errores como `No existe tal archivo o directorio`. Está bien.
 
-Run these commands:
+Ejecuta estos comandos:
 
 - `mv ~/.bashrc .bashrc.bak`
 - `mv ~/.bash_profile .bash_profile.bak`
@@ -18,8 +18,8 @@ Run these commands:
 - `mv ~/.zprofile .zprofile.bak`
 - `mv ~/.zshrc .zshrc.bak`
 
-Now, let's move on to getting our development applications installed.
+Ahora, vamos a instalar nuestras aplicaciones de desarrollo.
 
 ---
 
-### [⇐ Previous](./README.md) | [Next ⇒](./2-homebrew.md)
+### [⇐ Anterior](./README.md) | [Siguiente ⇒](./2-homebrew.md)

@@ -1,20 +1,20 @@
-# Update APT
+﻿# Actualiza APT
 
-Now that your Terminal is setup, it's time to update Ubuntu's **Advanced Packaging Tool** or <a href="https://help.ubuntu.com/lts/serverguide/apt-get.html" target="_blank">APT</a> for short. If you've never heard of a package manager, think of it as an App Store of **free** command line programs.
+Ahora que tu Terminal está configurado, es momento de actualizar el **Advanced Packaging Tool** de Ubuntu o <a href="https://help.ubuntu.com/lts/serverguide/apt-get.html" target="_blank">APT</a> para abreviar. Si nunca has escuchadao de un administrador de paquetes, imagina que es una App Store de programas **gratis** para la línea de comandos.
 
-To get started, run the following commands. Each line is its own command, so copy, paste, and run them one at a time.
+Para comenzar, ejecuta los siguientes comandos. Cada línea es su propio comando, así que copia, pega y ejecútalos uno por uno.
 
 ```
 sudo add-apt-repository -y ppa:git-core/ppa
 sudo apt-get update
 ```
 
-**TIP:** This may require your account password which **will not** appear on the screen as you type, but is tracking your key-strokes.
+**CONSEJO:** Esto necesitará de tu contraseña, la cual **no** aparecerá en la pantalla cuando escribas, pero registra las teclas que pulsas.
 
-## Install Tree view
+## Instala Tree view
 
-Once that's done we can install a quick awesome command called `tree`. What `tree` does is displays all of your directories and files in a nicely formatted tree so you can easily see your current file structure!
+Una vez que hayas terminado, podemos instalar un comando rápido llamado `tree`. ¡Lo que hace `tree` es mostrar todos tus directorios y archivos en una vista de árbol para que puedas ver con facilidad tu estructura de archivos actual!
 
-Type `sudo apt install tree`. Once that's done, you can type `tree` to see the tree view of the directory that you're currently in! You may have to close and restart your terminal before it will work.
+Escribe `sudo apt install tree`. ¡Una vez que hayas terminado, puedes escribir `tree` para ver la vista de árbol del directorio en el que te encuentras! Puede que necesites cerrar y reiniciar tu terminar antes para que funcione.
 
-### [⇐ Previous](1_terminal.md) | [Next ⇒](3_git.md)
+### [⇐ Anterior](1_terminal.md) | [Siguiente ⇒](3_git.md)

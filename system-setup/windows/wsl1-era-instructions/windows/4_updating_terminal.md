@@ -1,19 +1,19 @@
-# Updating your Terminal
+﻿# Actualizando tu Terminal
 
-This section will talk about how to update the Terminal's look and feel, as well as how to edit files in Ubuntu through it's command line editor nano.
+En esta sección hablaremos sobre cómo actualizar el aspecto y el estilo del Terminal, así como editar archivos en Ubuntu mediante el editor de la línea de comandos, nano.
 
-At the end, this will add some color to your command line, and your command line will be formatted for development.
+Al final, esto añadirá algo de color a tu línea de comandos, tu línea de comandos estará con el formato para desarrollo.
 
-## Updating the .profile file
+## Actualizando el archivo .profile
 
-1. Open the Ubuntu app and type `ls -a`. You should see a .profile file there.
- - **If not**, then type `sudo touch .profile`.
-2. Type `sudo nano .profile`. This will open the file in the command line editor Nano.
-3. Copy and paste this code into the editor below any existing text. **This can be tricky**
- - You can only paste with a single right-click:
+1. Abre la aplicación de Ubuntu y escribe `ls -a`. Verás un archivo .profile ahí.
+ - **Si no**, entonces escribe `sudo touch .profile`.
+2. Escribe `sudo nano .profile`. Esto abrirá el archivo en el editor de la línea de comandos, Nano.
+3. Copia y pega este código en el editor debajo de cualquier texto ya escrito. **Esto puede ser complicado**
+ - Solo puedes pegar con un solo click derecho:
 
 ```
-# get current branch in git repo
+# obtén la rama actual del repositorio en git
 function parse_git_branch() {
  BRANCH=`git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/\1/'`
  if [ ! "${BRANCH}" == "" ]
@@ -25,7 +25,7 @@ function parse_git_branch() {
  fi
 }
 
-# get current status of git repo
+# obtén el estado actual del repositorio en git
 function parse_git_dirty {
  status=`git status 2>&1 | tee`
  dirty=`echo -n "${status}" 2> /dev/null | grep "modified:" &> /dev/null; echo "$?"`
@@ -60,61 +60,61 @@ function parse_git_dirty {
  fi
 }
 
-# PS1 is what actually defines what you command line prompt looks like.
+# El PS1 es lo que define cómo se ve tu línea de comandos.
 export PS1="\[\e[m\]\[\e[36m\]\W\[\e[m\]\[\e[33m\]\`parse_git_branch\`\\$ "
 
 
-# Everything above this point is used to change how your terminal looks. If you ever want to update your terminals look, change things above here.
+# Todo antes de este punto se utiliza para cambiar cómo se ve tu terminal. Si quieres actualizar la apariencia de tu terminal, cambia lo anterior.
 
 
-# Nothing below here will change how your terminal looks, rather, it will change some things about how it works.
+# Nada después de este punto va a cambiar la apariencia de tu terminal, si no que va a cambiar algunas cosas sobre su funcionamiento.
 
-# This allows you to open html files in Chrome more easily by typing "chrome filename".
+# Esto te permitirá abrir archivos html en Chrome con más facilidad, solo escribiendo "chrome nombre-del-archivo".
 alias chrome="/mnt/c/Program\ Files\ \(x86\)/Google/Chrome/Application/chrome.exe"
 
-# This allows you to switch between the Ubuntu root and your Windows Root.
+# Esto te permitirá cambiar entre los directorios raiz de Ubuntu y Windows.
 
-# wr evaluates to the absolute path to your Windows user's root.
+# wr evalúa la ruta absoluta del directorio raiz de tu usuario de Windows.
 export wr=~/../../mnt/c/Users/WIN_USERNAME/
 
-# This gives us a quick way of moving directly to the Windows root
+# Esto nos da una forma rápida de movernos directamente a la raíz de Windows
 alias cdwr='cd "$wr"'
 
-# This brings you to your Windows Working directory immediatly when you open a new terminal.
+# Esto te llevará directamente a tu directorio de trabajo de Windows cuando abras un nuevo terminal.
 cdwr
 
 ```
 
-4. After pasting that in, you will need to replace `WIN_USERNAME` with your **Windows username**, right after `.../Users/`. IE: `/Users/MichaelLeonTreat/`.
+4. Después de copiar esto, tendrás que reemplazar `WIN_USERNAME` con tu **nombre de usuario de Windows**, justo después de `.../Users/`. IE: `/Users/MichaelLeonTreat/`.
 
-    -NOTE: If your path or username has a space, you can use a backslash escape character to include the space. IE: `/Users/Michael\ Treat/`.
+    -NOTA: Si tu ruta o nombre de usuario tiene un espacio, puedes utilizar una barra inversa para incluir el espacio. IE: `/Users/Michael\ Treat/`.
 
-If you are unsure what your Windows username is, then search 'command prompt' in the start menu and open it.
+Si no estás seguro de cuál es tu nombre de usuario de Windows, escribe 'símbolo del sistema' en el menú de inicio y ábrelo.
 
-Type the following command `echo %username%` .  The result should be your Windows username. Replace `WIN_USERNAME` with this.
+Escribe el siguiente comando `echo %username%` .  El resultado es tu nombre de usuario de Windows. Reemplaza `WIN_USERNAME` con esto.
 
-Close the command prompt.
+Cierra el símbolo del sistema.
 
-After that you're done in the nano editor, so press `ctrl + x`.
+Una vez que termines con el editor nano, presiona `ctrl + x`.
 
-Hit `y` and the editor will save your changes.
+Presiona `y` y el editor guardará tus cambios.
 
-Hit enter.
+Presiona enter.
 
-- To navigate to the Ubuntu root, you will type `cd ~` (There is a space between cd and ~)
+- Para navegar a la raíz de Ubuntu, escribe `cd ~` (Hay un espacio entre cd y ~)
 
-Now type `pwd` . You should see something like `/home/ubuntuusername`
+Ahora escribe `pwd` . Deberías ver algo como `/home/nombre-de-usuario-de-ubuntu`
 
-- To navigate to the Windows root, you will type `cdwr`
+- Para navegar a la raíz de Windows, escribe `cdwr`
 
-Now type `pwd` . You should see something like `/mnt/c/Users/windowsusername`
+Ahora escribe `pwd` . Deberías ver algo como `/mnt/c/Users/nombre-de-usuario-de-windows`
 
-**From this point on every time you close and re-open your Ubuntu terminal you will be starting in your Windows root.  This is where you will be working**
+**A partir de ahora, cada vez que cierres y vuelvas a abrir tu terminal de Ubuntu, comenzarás en tu raíz de Windows.  Aquí es donde trabajarás**
 
-### Install Tree view
+### Instala Tree view
 
-Once that's done we can install a quick awesome command called `tree`. What `tree` does is displays all of your directories and files in a nicely formatted tree so you can easily see your current file structure!
+Una vez que hayas terminado, podemos instalar un comando rápido llamado `tree`. ¡Lo que hace `tree` es mostrar todos tus directorios y archivos en una vista de árbol para que puedas ver con facilidad tu estructura de archivos actual!
 
-Type `sudo apt install tree`. Once that's done, you can type `tree` to see the tree view of the directory that you're currently in! You may have to close and restart your terminal before it will work.
+Escribe `sudo apt install tree`. ¡Una vez que hayas terminado, puedes escribir `tree` para ver la vista de árbol del directorio en el que te encuentras! Puede que necesites cerrar y reiniciar tu terminar antes para que funcione.
 
-### [⇐ Previous](./2_WSL_Ubuntu_setup.md) | [Next ⇒](./5_vscode_node_git_install.md)
+### [⇐ Anterior](./2_WSL_Ubuntu_setup.md) | [Siguiente ⇒](./5_vscode_node_git_install.md)

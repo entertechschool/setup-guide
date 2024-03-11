@@ -1,33 +1,33 @@
-# Install Extensions in VS Code
+﻿# Instalar Extensiones en VS Code
 
-**Run:**
+**Ejecuta:**
 
 `mkdir tester && cd tester && code .`
 
-VS Code should open.
+VS Code se debería abrir.
 
-**Click** on the four boxes to open the extension marketplace.
+**Haz click** en las cuatro cajas para abrir el marketplace de las extensiones.
 
 <img src="../images/extensions.png" width="500" height="500">
 
 ---
 
-A search field will open.  **Search and install** each extension from this list:
+Se abrirá un campo de búsqueda.  **Busca e instala** todas las extensiones de esta lista:
 
-NOTE: Some extensions may require you to reload VSCode.
+NOTA: Algunas extensiones te pedirán que reinicies VSCode.
 
 - Live Server 5.6.1
 - ESLint 2.1.2
 - Debugger for Chrome 4.12.6
-- HTML Preview 0.2.5  (the one with 4.5 stars)
+- HTML Preview 0.2.5  (el que tiene 4.5 estrellas)
 - markdownlint 0.34.0
 - Markdown All in One 2.7.0
 
 ---
 
-## [Continue to Final Verification](../test/test.md)
+## [Continúa con la Verificación Final](../test/test.md)
 
-[Click here if you are stuck.](../../error/error.md)
+[Haz click aquí si te has estancado.](../../error/error.md)
 
 ---
-### [⇐ Previous](../git/git-config.md)
+### [⇐ Anterior](../git/git-config.md)

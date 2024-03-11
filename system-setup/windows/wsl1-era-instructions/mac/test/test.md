@@ -1,12 +1,12 @@
-# Final Test
+﻿# Prueba Final
 
-**Run:**
+**Ejecuta:**
 
 `verify`
 
-This will verify that each step has been set up correctly. 
+Esto verificará que cada paso se haya configurado correctamente. 
 
-Expected output should look similar to this:
+El output esperado se deberá ver parecido a lo siguiente:
 
 ```
 yourMacUserName~$ verify
@@ -38,7 +38,7 @@ GIT ➠  git version 2.22.0
 	editor = code --wait
 [user]
 	name = githubUserName
-	email = yourEmail@gmail.com
+	email = tuEmail@gmail.com
 
 VSCODE EXTENSIONS:
 
@@ -54,9 +54,9 @@ yzhang.markdown-all-in-one
 
 ---
 
-**If** you recieve an error message, something weird,  or `command not found` , then [CLICK HERE](../../error/error.md)
+**Si** recibes un mensaje de error, algo raro,  o `comando no encontrado` , entonces [HAZ CLICK AQUÍ](../../error/error.md)
 
-Otherwise... CONGRATULATIONS!!  You are done with the setup process.
+De lo contrario... ¡FELICIDADES!  Ya terminaste con el proceso de configuración.
 
 ---
-### [⇐ Previous](../vs-code/extensions.md) |  [Return to Start ⇒](../../README.md)
+### [⇐ Anterior](../vs-code/extensions.md) |  [Vuelve al inicio ⇒](../../README.md)

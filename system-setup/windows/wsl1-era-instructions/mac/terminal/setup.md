@@ -1,20 +1,20 @@
-# Set Up the Terminal 
+﻿# Configura el Terminal 
 
-Open your terminal by simultaneously pressing **command** + **space-bar** > type **terminal** > click **Terminal** 
+Abre tu terminal presionando al mismo tiempo **command** + **barra espaciadora** > escribe **terminal** > haz click en **Terminal** 
 
-A terminal window will open.
+Se abrirá una ventana del terminal.
 
-Disregard any messages and **run:**
+Ignora cualquier mensaje y **ejecuta:**
 
  `echo $0`
 
-**Click** the resulting output.
+**Haz click** en el output.
 
 [-bash](../git/git-prompt.md) 
 
 [-zsh](zsh.md)
 
-[None of above](preferences.md)
+[Ninguno de los anteriores](preferences.md)
 
 ---
-### [⇐ Previous](../../README.md)
+### [⇐ Anterior](../../README.md)

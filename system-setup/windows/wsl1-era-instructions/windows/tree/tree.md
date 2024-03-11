@@ -1,3 +1,3 @@
-# Install Tree
+﻿# Instalar Tree
 
-## Coming Soon
+## Próximamente

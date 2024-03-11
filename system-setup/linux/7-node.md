@@ -1,64 +1,64 @@
-# Node.js Tools
+﻿# Herramientas de Node.js
 
-Node.js includes everything you need to execute a program written with JavaScript.
+Node.js incluye todo lo necesario para ejecutar un programa escrito con JavaScript.
 
 ---
 
-## Verify if Node.js is already installed
+## Verifica si Node.js está instalado
 
-**_If this is your first time going through the setup guide on your current machine, skip this "Verify" section and move on to the "Install" section below_**
+**_Si esta es la primera vez que pasas por la guía de configuración en tu equipo actual, sáltate la sección "Verificar" y ve a la sección "Instalar" más abajo_**
 
-In your terminal, run:
+En tu terminal, ejecuta:
 
 - `node --version`
 
-> **IF** the output is this version or higher:
+> **SI** el output es esta versión o superior:
 >
 > ```text
 > v17.8.0
 > ```
 >
-> Continue to [next page](./8-live-server.md)
+> Continúa a la [siguiente página](./8-live-server.md)
 >
 > ---
->**else if** the output is not similar to the above:
+> **O si** el output no es similar a lo anterior:
 >
-> Continue with instructions on this page.
+> Continúa con las instrucciones en esta página.
 
 ---
 
-## Install Node.js
+## Instala Node.js
 
-Run the command:
+Ejecuta el comando:
 
 - `brew install node`
 
-It will take a minute for the download and installation process to complete.
+Tomára un minuto para que los procesos de descarga e instalación se completen.
 
-> _AT THIS POINT YOU **`MUST`** RESTART YOUR TERMINAL_
+> _EN ESTE PUNTO **`DEBES`** REINICIAR TU TERMINAL_
 
-After restarting, verify your Node.js version by running the command:
+Después de reiniciar, verifica tu versión de Node.js ejecutando el comando:
 
 - `node --version`
 
-Expected output should be this version or higher:
+El output esperado deberá ser esta versión o superior:
 
 > ```text
 > v17.8.0
 > ```
 
-Verify that Node.js is working:
+Verifica que Node.js esté funcionando:
 
-- Run the command:
+- Ejecuta el comando:
   - `node`
-- Type `5 + 5` and hit enter
-  - The result should be `10`.  If you get `11` your computer is broken. ;)
-  - **Quit** node by pressing **control C** two times.
+- Escribe `5 + 5` y presiona enter
+  - El resultado debería ser `10`.  Si obtienes `11` tu computadora se averió. ;)
+  - **Sal de** node presionando **control C** dos veces.
 
-Did you get similar output for both?
+¿Obtuviste un output similar para ambos comandos?
 
-If not ... [head here](../../error/error.md)
+Si no... [dirígente aquí](../../error/error.md)
 
 ---
 
-### [⇐ Previous](./6-ohmyzsh.md) | [Next ⇒](./8-live-server.md)
+### [⇐ Anterior](./6-ohmyzsh.md) | [Siguiente ⇒](./8-live-server.md)

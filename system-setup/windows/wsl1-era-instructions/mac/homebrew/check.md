@@ -1,28 +1,28 @@
-#  Check Homebrew
+﻿#  Revisa el Homebrew
 
-Run:
+Ejecuta:
 
 `brew doctor`
 
-**If** output is: 
+**Si** el output es: 
 ```
 Your system is ready to brew
 ``` 
-**run:**
+**ejecuta:**
 
 `brew update` 
 
- [Continue to next step](../tree/tree.md)
+ [Continúa con el siguiente paso](../tree/tree.md)
 
  ---
 
-**Else** output is: 
+**O si** el output es: 
 ```
 -bash: brew: command not found
 ```
  
- **then** [click here to install Homebrew](../homebrew/homebrew.md)
+ **entonces** [haz click aquí para instalar Homebrew](../homebrew/homebrew.md)
 
 ---
-### [⇐ Previous](../git/git-prompt.md)
+### [⇐ Anterior](../git/git-prompt.md)
 

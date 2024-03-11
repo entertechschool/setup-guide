@@ -1,16 +1,16 @@
-# Backup Your Terminal/Shell Environment
+﻿# Respalda tu Terminal/Entorno de Shell
 
-## Backing up files
+## Respaldando archivos
 
-The first thing we'll do is backup your existing terminal setup.
+Lo primero que haremos será respaldar tu configuración actual del terminal.
 
-There are a lot of ways that your terminal can be set up, determined by different configuration files.
+Hay varias formas en las que puedes configurar tu terminal, determinado por diferentes archivos de configuración.
 
-We want to remove the old ways so we can start with a clean slate.
+Queremos dejar atrás lo antiguo para comenzar en una hoja en blanco.
 
-Make back ups of the files listed below. You may get a `No such file or directory` error for some of them. That's ok.
+Haz respaldos de los archivos enlistados a continuación. Puede que obtengas algunos errores como `No existe tal archivo o directorio`. Está bien.
 
-Run these commands:
+Ejecuta estos comandos:
 
 - `mv ~/.bashrc .bashrc.bak`
 - `mv ~/.bash_profile .bash_profile.bak`
@@ -18,20 +18,20 @@ Run these commands:
 - `mv ~/.zprofile .zprofile.bak`
 - `mv ~/.zshrc .zshrc.bak`
 
-## Install Z Shell
+## Instala Z Shell
 
-Run the following command:
+Ejecuta el siguiente comando:
 
 - `sudo apt-get install zsh`
 
-After installing, run the command:
+Después de instalarlo, ejecuta el comando:
 
 - `zsh`
 
-Zsh will ask you to choose some configuration. We will do this later by installing `oh-my-zsh`. Chose option 0 now to create the config file (prevent this message from showing again).
+Zsh te pedirá escoger una configuración. Haremos esto después, instalando `oh-my-zsh`. Escoge la opcion 0 para crear el archivo de configuración (previene que este mensaje aparezca de nuevo).
 
-Now, let's move on to getting our development applications installed.
+Ahora, vamos a instalar nuestras aplicaciones de desarrollo.
 
 ---
 
-### [⇐ Previous](./README.md) | [Next ⇒](./2-apt.md)
+### [⇐ Anterior](./README.md) | [Siguiente ⇒](./2-apt.md)

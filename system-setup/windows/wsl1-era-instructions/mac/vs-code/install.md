@@ -1,30 +1,30 @@
-# Install VSCode
+﻿# Instalar VSCode
 
-Download [VS Code for Mac](https://code.visualstudio.com/download) .zip file 
+Descarga el archivo .zip de [VS Code para Mac](https://code.visualstudio.com/download) 
 
-**NOTE:**  Do not open VS Code app yet.
+**NOTA:**  No abras la aplicación VS Code aún.
 
-1. Click the downloaded file at the bottom of Chrome (or double-click the .zip file in finder).
+1. Haz click en el archivo descargado en la parte inferior de Chrome (o haz doble click al archivo .zip en el finder).
 
-1. Drag the VS Code app into your Applications folder.
+1. Arrastra la aplicación de VS Code a tu carpeta de Aplicaciones.
 
-1. Open the app. (If you opened the app before it was in your Applications folder, you’ll need to reinstall.)
+1. Abre la aplicación. (Si abriste la aplicación antes de que estuviera en tu carpeta de Aplicaciones, tendrás que reinstalarla.)
 
-**NOTE:** After downloading, when you try to open VS Code , you may see a message:
+**NOTA:** Después de descargar, cuando trates de abrir VS Code, puede que veas un mensaje:
 
- `Visual Studio Code can't be opened because Apple cannot check it for malicious software`
+ `Visual Studio Code no se puede abrir porque Apple no puede comprobar si hay software malicioso`
 
-To fix this:
+Para arreglar esto:
 
-Go to Apple menu > System Preferences > Security & Privacy > General >  choose Open Anyway.
+Ve al menú de Apple > Preferencias del Sistema > Seguridad y Privacidad > General >  escoge Abrir igualmente.
 
-VS Code should now open.
+Ahora VS Code se debería abrir.
 
-**Next run:**
+**Ahora ejecuta:**
 
 `code --version`
 
-Should return something similar to:
+Debería responder algo similar a:
 
 ```
 1.43.1
@@ -32,17 +32,17 @@ fe22a9645b44368865c0ba92e2fb881ff1afce94
 x64
 ```
 
-**If yes** [continue to next step](open-vscode.md)
+**Si es así** [continúa con el siguiente paso](open-vscode.md)
 
 ---
 
-**Else**  return output is:
+> **O si** el output de respuesta es:
 
 ```
 -bash: code: command not found
 ```
 
-**or** anything weird **then** [click here](../../error/error.md)
+**o** algo extraño **entonces** [haz click aquí](../../error/error.md)
 
 ---
-### [⇐ Previous](../vs-code/check-vscode.md)
+### [⇐ Anterior](../vs-code/check-vscode.md)

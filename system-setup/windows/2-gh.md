@@ -1,39 +1,39 @@
-# Git Command Line Tool
+﻿# Herramienta de la Línea de Comandos de Git
 
-Install the `gh` command line tool from GitHub
+Instala la herramienta de línea de comandos `gh` desde GitHub
 
 ---
 
-1. Close any open **GitBash** windows you may have open.
-1. Navigate to the [GitHub CLI] download page.
-1. Click to download button.
-1. Once the installer downloads, open the file and follow the on-screen instructions.
+1. Cierra cualquier ventana de **GitBash** que tengas abierta.
+1. Entra la página de descargas de [GitHub CLI].
+1. Haz click en el botón download.
+1. Una vez que se descargue el instalador, abre el archivo y sigue las instrucciones en la pantalla.
 
-## Setup GitHub for "Authentication"
+## Configura GitHub para "Authentication"
 
-In order to use Git locally in a secure manner, we need to connect our computer with github.com. (_For further information about this process, visit [GitHub Instructions: Caching GitHub credentials](https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git)_)
+Para utilizar Git localmente de forma segura, necesitamos conectar nuestra computadora con github.com. (_Para más información acerca de este proceso, visita las [Instrucciones de GitHub: Almacenar tus credenciales de GitHub](https://docs.github.com/es/get-started/getting-started-with-git/caching-your-github-credentials-in-git)_)
 
-Open the **GitBash** application.
+Abre la aplicación **GitBash**.
 
-- Once opened, run this command:
+- Una vez esté abierta, ejecuta este comando:
   - `gh auth login`
-- Use arrow keys to select **GitHub.com**
-- Select **SSH**
-- When prompted with `Generate a new SSH Key to add to your GitHub account (Y / n)`, press `y` and enter
-- When prompted to enter a passphrase, you may enter a new passphprase here press enter to skip this step.
-  - Skipping this step removes the burden of having to re-enter your password every time you use this tool from your laptop.
-  - It also means that anyone with access to your laptop can access your github account
-- Press "Enter" when prompted to give a Title for your SSH key.
-- When prompted with `Authenticate Git with your GitHub credentials (Y / n)`, press `y` and enter
-- Select **Login with a web browser**
-- Copy the one time code shown in yout terminal and then press enter. This will open GitHub.com in a web page.
-- If not signed in, you will be prompted to sign in.
-- GitHub will prompt you for the one time code you copied from the terminal. Paste/enter it in the appropriate boxes.
-- Click **Authorize GitHub**
-- You can close the web browser and press enter in your terminal to continue.
+- Utiliza las teclas de flecha para seleccionar **GitHub.com**
+- Selecciona **SSH**
+- Cuando aparezca `Generate a new SSH Key to add to your GitHub account (Y / n)`, presiona `y` y enter
+- Cuando te pida ingresar una passphrase, puedes poner una nueva aquí y presionar enter para saltarte este paso.
+  - Saltarte este paso te quitará el peso de volver a ingresar tu contraseña cada vez que utilices esta herramienta desde tu laptop.
+  - También significa que cualquiera con acceso a tu laptop puede entrar a tu cuenta de github.
+- Presiona "Enter" cuando se te indique para darle un título a tu SSH key.
+- Cuando aparezca `Authenticate Git with your GitHub credentials (Y / n)`, presiona `y` y enter
+- Selecciona **Login with a web browser**
+- Copia el código que se muestra en tu terminal y presiona enter. - Esto abrirá GitHub.com en una nueva página.
+- Si no has iniciado sesión, se te pedirá que lo hagas.
+- GitHub te pedirá el código que copiaste del terminal. Cópialo/ingrésalo en las casillas indicadas.
+- Haz click en **Authorize GitHub**
+- Puedes cerrar el navegador y presionar enter en tu terminal para continuar.
 
-Your terminal should confirm that you have authenticated successfully:
+Tu terminal confirmará que te has autentificado con éxito.
 
 ![GitHub Authentication](./gh-auth.png)
 
-### [⇐ Previous](./1-gitbash.md) | [Next ⇒](./3-vscode.md)
+### [⇐ Anterior](./1-gitbash.md) | [Siguiente ⇒](./3-vscode.md)

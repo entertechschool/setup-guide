@@ -1,76 +1,76 @@
-# Git
+﻿# Git
 
-Git is a free, open-source distributed version control system. You'll use it to track the history of changes to your files, collaborate with others, and more!
+Git es un sistema de control de versiones gratis y distribuido como código abierto. ¡Lo utilizarás para monitorear el historial de cambios de tus archivos, colaborar con otras personas y más!
 
 ---
 
-## Verify if Git & GitHub are already installed:
+## Verifica si Git y GitHub ya están instalados:
 
-**_If this is your first time going through the setup guide on your current machine, skip this "Verify" section and move on to the "Install" section below_**
+**_Si esta es la primera vez que pasas por la guía de configuración en tu equipo actual, sáltate la sección "Verificar" y ve a la sección "Instalar" más abajo_**
 
-In your terminal, run:
+En tu terminal, ejecuta:
 
 - `git config --list`
 
-> **IF** the output is similar to:
+> **SI** el output es similar a:
 >
 > ```bash
->   user.name=[Your name is here]
->   user.email=[Your email is here]
+>   user.name=[Tu nombre va aquí]
+>   user.email=[Tu correo va aquí]
 >   code.editor=code --wait
 >   init.defaultbranch=main
 > ```
 >
-> Then move on to [next page](./4-tree.md)
+> Entonces sigue a la [siguiente página](./4-tree.md)
 >
 > ---
-> **else if** the output is not similar to the above:
+> **O si** el output no es similar a lo anterior:
 >
-> Continue with instructions on this page.
+> Continúa con las instrucciones en esta página.
 
-**Note**: To exit the `git config --list` screen, type the letter `q` in your terminal
+**Nota**: Para salir de la pantalla `git config --list`, escribe la letra `q` en tu terminal
 
 ---
 
-## Install and Configure Git and GitHub
+## Instala y Configura Git y GitHub
 
-Run the following command to ensure that you have the most recent version of git:
+Escribe el siguiente comando para asegurarte de que tienes la versión más reciente de git:
 
 - `brew install git || brew upgrade git`
 
-## Setup GitHub for "Authentication"
+## Configura GitHub para "Authentication"
 
-In order to use Git locally in a secure manner, we need to connect our computer with github.com. (_For further information about this process, visit [GitHub Instructions: Caching GitHub credentials](https://docs.github.com/en/get-started/getting-started-with-git/caching-your-github-credentials-in-git)_)
+Para utilizar Git localmente de forma segura, necesitamos conectar nuestra computadora con github.com. (_Para más información acerca de este proceso, visita las [Instrucciones de GitHub: Almacenar tus credenciales de GitHub](https://docs.github.com/es/get-started/getting-started-with-git/caching-your-github-credentials-in-git)_)  
 
-Install CLI by completing the following steps:
+Instala CLI completando los siguientes pasos:
 
-- Run in terminal:
+- Ejecuta en tu terminal:
   - `brew install gh`
-- Once it's complete, run:
+- Una vez que hayas terminado, ejecuta:
   - `gh auth login`
-- Use arrow keys to select **GitHub.com**
-- Select **HTTPS**
-- When prompted with `Authenticate Git with your GitHub credentials (Y / n)`,   press `y` and enter
-- Select **Login with a web browser**
-- Copy the one time code shown in yout terminal and then press enter.  This will open Github.com in a web page.
-- If not signed in, you will be prompted to sign in.
-- Github will prompt you for the one time code you copied from the terminal.  Paste/enter it in the appropriate boxes.
-- Click **Authorize Github**
-- You can close the web browser and press enter in your terminal to continue.
+- Utiliza las teclas de flecha para seleccionar **GitHub.com**
+- Selecciona **HTTPS**
+- Cuando aparezca `Authenticate Git with your GitHub credentials (Y / n)`, presiona `y` y enter
+- Selecciona **Login with a web browser**
+- Copia el código que se muestra en tu terminal y presiona enter.  Esto abrirá GitHub.com en una nueva página.
+- Si no has iniciado sesión, se te pedirá que lo hagas.
+- GitHub te pedirá el código que copiaste del terminal.  Cópialo/ingrésalo en las casillas indicadas.
+- Haz click en **Authorize GitHub**
+- Puedes cerrar el navegador y presionar enter en tu terminal para continuar.
 
-## Git Config
+## Configuración de Git
 
-Like artists, programmers sign their work. Let's configure Git to sign your commits with your name and email address.
+Al igual que los artistas, los programadores firman su trabajo. Vamos a configurar Git para firmar tus commits con tu nombre y tu dirección de correo.
 
-**WARNING:**
+**ADVERTENCIA:**
 
-Before running the following commands one line at at time, use the arrow keys or backspace/delete keys on your keyboard to move your cursor.
+Antes de ejecutar los siguientes comandos uno por uno, utiliza las teclas de flecha o retroceso/borrar en tu teclado para mover tu cursor.
 
-Replace `YOUR FULL NAME` and `YOUR EMAIL ADDRESS` inside the single quotes with the name and email from [Your GitHub Account](https://github.com/settings/profile)
+Reemplaza `TU NOMBRE COMPLETO` y `TU CORREO ELECTRÓNICO` dentro de las comillas simples con el nombre y correo de [tu cuenta de GitHub](https://github.com/settings/profile)
 
-- `git config --global user.name 'YOUR FULL NAME'`
-- `git config --global user.email 'YOUR EMAIL ADDRESS'`
+- `git config --global user.name 'TU NOMBRE COMPLETO'`
+- `git config --global user.email 'TU CORREO ELECTRÓNICO'`
 - `git config --global core.editor "code --wait"`
 - `git config --global init.defaultbranch main`
 
-### [⇐ Previous](./2-homebrew.md) | [Next ⇒](./4-tree.md)
+### [⇐ Anterior](./2-homebrew.md) | [Siguiente ⇒](./4-tree.md)

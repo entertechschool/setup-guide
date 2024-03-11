@@ -1,61 +1,61 @@
-# Setting up WSL and the Ubuntu app
+﻿# Configurando WSL y la aplicación de Ubuntu
 
-**Before you begin check to make sure that you have the [most recent version of Windows 10](https://support.microsoft.com/en-us/help/4028685/windows-10-get-the-update).**
+**Antes de comenzar asegúrate de tener la [verisón más reciente de Windows 10](https://support.microsoft.com/en-us/help/4028685/windows-10-get-the-update).**
 
-**You are not expected to understand what is taking place as you complete the steps in this guide. It is important that you do not skip ahead.  Please follow the instructions line by line.**
+**No se espera que entiendas todo lo que está pasando mientras completas los pasos de esta guía. Es importante que no te saltes ningún paso.  Por favor sigue las instrucciones una por una.**
 
-## Overview  
+## Resumen  
  
-Windows does not run in a POSIX environment. Much of the software you use as a developer is designed to run in POSIX environments, and many of the web's servers are also running in some POSIX environment. This causes problems because Windows uses different console commands and not all of those commands translate over to POSIX very well.
+Windows no se ejecuta en un entorno POSIX. Bastante del software que utilizas como desarrollador está diseñado para ejecutarse en entornos POSIX, y muchos de los servidores web también se están ejecutando en algún entorno POSIX. Esto causa problemas porque Windows utiliza comandos de consola diferentes y no todos estos comandos se traducen a POSIX bien.
 
-Windows has released a feature available to all PCs running on Windows 10 called Windows Subsystem for Linux, otherwise known as WSL. WSL gives you the ability to add a Linux distro like Ubuntu and mount it directly to the Windows File System.
+Windows ha lanzado una funcionalidad disponible para todas las PCs con Windows 10 llamada Windows Subsystem for Linux, también conocido como WSL. WSL te da la capacidad de añadir una distribución de Linux como Ubuntu y montarla directamente en el Sistema de Archivos de Windows.
 
-**Ubuntu can _read and write_ both** Ubuntu and Windows files, **Windows can only _read and write_ Windows files**, and **_read_ Ubuntu Files**, but it **_cannot_ write Ubuntu files**. Knowing which files belong to which FS is important because of this.
+**Ubuntu puede _leer y escribir_ los ** archivos de Ubuntu y Windows, **Windows solo puede _leer y escribir_ archivos de Windows **, y **_leer_ archivos de Ubuntu**, pero **_no puede_ escribir archivos de Ubuntu**. Saber qué archivos pertenercen a cuál sistema de archivos es importante por esto.
 
-Before we dive into how to use the Ubuntu App and WSL, lets talk about one of the most important things, which is **knowing your File Systems**
+Antes de que profundicemos en cómo utilizar la aplicación de Ubuntu y WSL, hablemos de una de las cosas más importantes, la cual es **conocer tus Sistemas de Archivos**
 
-There are 2 files systems here:
+Hay dos sistemas de archivos aquí:
 
-1. The Windows FS
-2. The Ubuntu FS.
+1. El sistema de archivos de Windows
+2. El sistema de archivos de Ubuntu.
 
 
-## Install Instructions:
+## Instrucciones de Instalación:
 
-### Please read through these steps before getting started
+### Por favor lee cada uno de estos pasos antes de comenzar
 
-**Follow the instructions line for line, pay attention to detail!!**
+**Sigue las instrucciones una por una, ¡presta atención a los detalles!**
 
-#### 1. Enable WSL Feature in Windows.
+#### 1. Activa la Funcionalidad WSL en Windows.
 
-1. Right click on the start menu and click on Settings.
-2. In the Search box, type `Turn Windows Features On Or Off` and click on the item that populates in the list.
-3. A window will pop up with a list of folders with checkboxes next to them. Scroll down and check the box for `Windows Subsystem for Linux`.
+1. Haz click derecho en el menú de inicio y luego en Configuración.
+2. En la barra de búsqueda, escribe `Activar o desactivar las características de Windows` y haz click en el elemento que aparece en la lista.
+3. Aparecerá una ventana con una lista de carpetas con casillas al lado. Baja y selecciona la casilla que dice `Subsistema de Windows para Linux`.
 
-This will install the needed files. Follow any directions that pop up and restart when asked. This page might not open after restart, so be sure to make note of the url or bookmark it.
+Esto instalará los archivos necesarios. Sigue las direcciones que aparecerán y reinicia cuando te lo pidan. Esta página puede no abrirse después de reiniciar, así que asegúrate de anotar la url o agregarla a los marcadores.
 
-#### 2. Install the Ubuntu app from the Windows Store.
+#### 2. Instala la aplicación de Ubuntu desde Windows Store.
 
-1. Click here to go to Microsoft store and install the [Ubuntu App](https://www.microsoft.com/en-us/store/p/ubuntu/9nblggh4msv6?activetab=pivot%3aoverviewtab)
-1. Follow the on-screen prompts to install the app. 
-1. When the app is ready, it will say Launch. Click Launch. This will start the Ubuntu installation. This installation only happens the first time the app is launched, as it's the actual Ubuntu OS installing and mounting to your Windows FS. Anytime you uninstall the app and reinstall it you will have to do this process again. Make sure to back up important data if you ever uninstall this app, as it is not preserved. 
+1. Haz click para ir a la Microsoft store e instalar la [Aplicación de Ubuntu](https://www.microsoft.com/en-us/store/p/ubuntu/9nblggh4msv6?activetab=pivot%3aoverviewtab)
+1. Sigue las instrucciones en la pantalla para instalar la aplicación. 
+1. Cuando la aplicación esté lista, dirá Abrir. Haz click en Abrir. Esto comenzará la instalación de Ubuntu. Esta instalación solo ocurre la primera vez que se ejecuta la apliación, ya que el SO de Ubuntu se está instando y montando en tu Sistema de Archivos de Windows. Cada vez que desinstales la aplicación y la reinstales tendrás que hacer este proceso de nuevo. Asegúrate de hacer una copia de seguridad con tu información importante si llegas a desinstalar esta aplicación, ya que no se guardará. 
 
-#### 3. Finish Installing the Ubuntu App.
+#### 3. Termina de instalar la aplicación de Ubuntu.
 
-1. It will ask you to enter a username. This will be the root / admin user for the Ubuntu FS. 
-1. It will then ask you to enter and confirm a password. It's recommended it's not too long as you may have to type it a lot. Also note that it will protect your password by not displaying it to the screen when you type, but it is registering your key strokes.
-1. Finally, the prompt will change and you will be on a command line. Type `pwd` to see where you currently are in the FS, you should be at `/home/<your username>`. **This is the root level of your Ubuntu user.**
+1. Te pedirá ingresar un nombre de usuario. Este será el usuario root / admin para el Sistema de Archivos de Ubuntu. 
+1. Después te pedirá ingresar y confirmar una contraseña. Se recomienda que no sea muy larga, ya que tendrás que escribirla varias veces. También ten en cuenta que protegerá tu constraseña al no mostrarla en la pantalla mientras la escribes, pero está registrando las teclas que pulsas.
+1. Por último, el aviso cambiará y estarás en la línea de comandos. Escribe `pwd` para ver en dónde estás dentro del Sistema de Archivos, deberás estar en `/home/<tu nombre de usuario>`. **Este es el directorio raiz de tu usuario de Ubuntu.**
 
-#### 4. Updating Default Software.
+#### 4. Actualizando el Software Predeterminado
 
-1. Type `sudo apt-get update`.
-1. Once that is complete, type `sudo apt-get upgrade`. Press `y` when prompted. 
-1. Once that is done, type `sudo apt autoremove`. This will remove any packages that are no longer needed.
+1. Escribe `sudo apt-get update`.
+1. Una vez que se haya completado, escribe `sudo apt-get upgrade`. Presiona `y` cuando te lo indiquen. 
+1. Una vez que haya terminado, escribe `sudo apt autoremove`. Esto eliminará los paquetes que ya no se necesitan.
 
-At this point you are now totally setup with WSL and the Ubuntu app.
+A este punto ya tienes WSL y la aplicación de Ubuntu completamente configurados.
 
-- Open the Ubuntu app and type `pwd`. Assumuing you haven't changed anything yet, you'll notice that it says something like `/home/<your username>`.
+- Abre la aplicación de Ubuntu y escribe `pwd`. Asumiendo que aún no has cambiado nada, notarás que dice algo como `/home/<tu nombre de usuario>`.
 
-This `/home/` means that you are in the Ubuntu FS. 
+Este `/home/` significa que estás en el Sistema de Archivos de Ubuntu. 
 
-### [⇐ Previous](../README.md) | [Next ⇒](./4_updating_terminal.md)
+### [⇐ Anterior](../README.md) | [Siguiente ⇒](./4_updating_terminal.md)

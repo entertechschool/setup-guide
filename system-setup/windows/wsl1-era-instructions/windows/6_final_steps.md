@@ -1,8 +1,8 @@
-# Final Steps
+﻿# Últimos Pasos
 
-### VSCode Extensions
+### Extensiones de VSCode
 
-1. To add extensions to VSCode, open up VSCode. On the bottom left hand side you will see a cog icon.  Click this and select extensions. A side-bar will slide out and at the top you can search for the listed extensions below and click the green 'Install' button:
+1. Para añadir extensiones a VSCode, abre VSCode. En la parte inferior izquierda verás el ícono de una tuerca.  Haz click ahí y selecciona extensiones. Se abrirá una barra lateral y en la parte superior podrás buscar extensiones que se enumeran a continuación y hacer click en el botón verde 'Instalar':
 
   - live server 5.6.1
   - ESLint 2.0.13
@@ -10,9 +10,9 @@
   - HTML Preview 0.2.5
   - Debugger for Chrome
 
-### Verification
+### Verificación
 
-#### By the time you’ve completed the guide, you should be able to run the following commands in your terminal:
+#### Cuando hayas completado la guía, deberías poder ejecutar los siguientes comandos en tu terminal:
 
 - `code --version`
 - `git --version`
@@ -23,9 +23,9 @@
 - `echo $PS1`
 - `cat ~/.gitconfig`
 - `code`
-  - should open VScode
+  - se debería abrir VSCode
 
-#### Each command should report a version number of what’s installed (should look *similar* to below example). Should you run across any errors that give you trouble please get a hold of contact below:
+#### Cada comando deberá informar un número de versión de lo que está instalado (se deberá ver *parecido* al siguiente ejemplo). En caso de que encuentres errores que te causen dificultad, por favor ponte en contacto más abajo:
 
 ``` 
 username@user $ code --version
@@ -51,10 +51,10 @@ username@user $ cat ~/.gitconfig
 	name = yourgithubusername
 	email = youremail
 username@user $ code
-//should open VSCode
+//se debería abrir VSCode
 ```
 ---
 
-## THE END!  
+## ¡FIN!  
 
-### [⇐ Previous](./5_VSCode_Node_GIt_install.md)
+### [⇐ Anterior](./5_VSCode_Node_GIt_install.md)

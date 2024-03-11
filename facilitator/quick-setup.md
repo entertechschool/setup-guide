@@ -1,44 +1,44 @@
-# Testing & Quick Setup for Mac Users
+﻿# Pruebas y Configuración Rápida para Usuarios de Mac
 
-This guide will provide a starting point to help facilitators identify errors or next steps in the configuration process.  This will help eliminate the hassle of searching for the problem by defining a step by step procedure that can be tested in the console.
+Esta guía proporcionará un punto de partida para ayudar a los instructores a identificar erroes o los siguientes pasos en el proceso de configuración.  Esto ayudará a eliminar el inconveniente de buscar el problema al definir un procedimiento paso por paso que puede ser probado en la consola.
 
-The setup guide takes the student through the following process:
+La guía de configuración lleva a los estudiantes por los siguientes procesos:
 
-1. Terminal /Prompt
+1. Terminal /Línea de Comandos
 2. Homebrew
 3. Tree
 4. VS Code / Code
 5. Nodejs / NPM
 6. ESLint / Live Server
 7. Git
-8. Git Configuration
-9. VSCode Extensions
+8. Configuración de Git
+9. Extensiones de VSCode
 
-**Run** this command in student's terminal to check their progress:
+**Ejecuta** este comando en el terminal del estudiante para revisar su progreso:
 
 `verify`
 
-**If** you receive:
+**Si** obtienes:
 
 ```
 zsh: command not found: verify
 ```
 
-Start [HERE](../mac/terminal/zsh.md)
+Comienza [AQUÍ](../mac/terminal/zsh.md)
 
 ---
 
-**Else** you receive:
+**O si** obtienes:
 
 ```
 bash: command not found: verify
 ```
 
-Start [HERE](../mac/git/git-prompt.md)
+Comienza [AQUÍ](../mac/git/git-prompt.md)
 
 ---
 
-**Expected Output**
+**Output esperado**
 
 ```
 PROMPT ➠ ✓ Prompt is Ready yourMacUserName

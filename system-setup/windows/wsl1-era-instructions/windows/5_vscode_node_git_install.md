@@ -1,63 +1,63 @@
-# Installing VSCode, Node.js, and Git
+﻿# Instalando VSCode, Node.js y Git
 
-After finishing this doc you will have VSCode, Node.js, and Git installed on your machine.
+Después de finalizar de leer este documento, tendrás VSCode, Node.js y Git instalados en tu equipo.
 
 ## VSCode
 
-1. Vist [VSCode](https://code.visualstudio.com/?wt.mc_id=adw-brand&gclid=Cj0KCQjw5-TXBRCHARIsANLixNw00R2vbdqnzLml-GvzCgbyqmgcAb9kyRQsC5LAPVS6tuBDZ9ws9pgaAsiLEALw_wcB) to download VSCode.
-1. Launch the installer and follow the onscreen prompts.
-1. **When you reach the section for `Additional tasks`, make sure every box is checked.**
-1. Click install and continue to follow and onscreen prompts.
+1. Visita [VSCode](https://code.visualstudio.com/?wt.mc_id=adw-brand&gclid=Cj0KCQjw5-TXBRCHARIsANLixNw00R2vbdqnzLml-GvzCgbyqmgcAb9kyRQsC5LAPVS6tuBDZ9ws9pgaAsiLEALw_wcB) para descargarlo.
+1. Ejecuta el instalador y sigue las indicaciones en la pantalla.
+1. **Cuando llegues a la sección `Tareas adicionales`, asegúrate de que todas las casillas estén marcadas.**
+1. Haz click en instalar y continúa siguiendo las indicaciones en la pantalla.
 
-Once you are done, you can open up a terminal (the Ubuntu App) and type `code` to open VSCode. This may or may not require a restart first. 
+Una vez que hayas terminado, puedes abrir un terminal (la aplicación de Ubuntu) y escribir `code` para abrir VSCode. Eso puede o no puede requerir de un reinicio primero. 
 
 ## Node.js - Version 10.x
 
-1. Open the Ubuntu app and type `cd ~` to bring you into the Ubuntu FS.
-1. Type `sudo apt-get update`. This will tell Ubuntu's apt tool to update.
-1. After it is done updating run the command:
+1. Abre la aplicación de Ubuntu y escribe `cd ~` para llevarte al Sistema de Archivos de Ubuntu.
+1. Escribe `sudo apt-get update`. Esto le pedirá a la herramienta apt de Ubuntu que se actualice.
+1. Una vez que se termine de actualizar ejecuta el comando:
 
 ```
 curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
 ```
 
-then run:
+y después ejecuta:
 
 ```
 sudo apt-get install -y nodejs
 ```
 
-We will also install Node on Windows:
+También instalaremos Node en Windows:
 
-1. Visit <https://nodejs.org/en/download/> and download and run the Windows installer.
+1. Entra a <https://nodejs.org/en/download/> para descargar y ejecutar el instalador de Windows.
 
 ## Eslint
 
-1. Search 'windows powershell' in the start menu and open it.
-2. Run `npm i -g eslint` . When finished close windows powershell.
+1. Busca 'windows powershell' en el menú de inicio y ábrelo.
+2. Ejecuta `npm i -g eslint` . Una vez hayas terminado, cierra windows powershell.
 
 ## Git
 
-Git is already installed on Ubuntu as it comes built in. VSCode however also uses Git for it's source-control tool to work. But since VSCode is a Windows application, it doesn't know how to use Ubuntu's version of Git. 
+Git ya está instalado en Ubuntu ya que viene incluido. Sin embargo, VSCode también utiliza Git para ejecutar su herramienta de control de versiones. Pero ya que VSCode es una aplicación de Windows, no sabe cómo utilizar la versión de Ubuntu de Git. 
 
-1. Visit [git-scm.com](https://git-scm.com/) to download and install Git.
-2. Follow the onscreen instructions.
+1. Entra a [git-scm.com](https://git-scm.com/) para descargar e instalar Git.
+2. Sigue las instrucciones en la pantalla.
 
-    - Choose the default values for each prompt...
-    - **EXCEPT** when it asks you to `Choose the default editor used by Git`... 
-        - click the drop down and choose the VSCode option
-        - Do NOT choose the "VSCode Insiders" option. 
-    - This will allow you to handle merge conflicts in your editor instead of in your command line which is another reason to have Git on Windows as well.
+    - Escoge los valores por defecto para cada indicación...
+    - **EXCEPTO** cuando te pida `Choose the default editor used by Git`... 
+        - Haz click en el menú desplegable y escoge la opción de VSCode
+        - NO escojas la opción "VSCode Insiders". 
+    - Esto te permitirá manejar los merge conflicts en tu editor en vez de la línea de comandos, lo cual es otra razón para tener Git en Windows también.
 
-3. Continue choosing the default options to finish the installation.
+3. Continúa escogiendo las opciones por defecto para terminar con la instalación.
 
-### Set the Git Config
+### Configura Git
 
-The final step here is to add your email and name to the Git config. This will allow you to commit and push things to GitHub. Make sure to include the space after `.email` and `.name`, and always remember to close your quotes ' ' and " ".
+El paso final es añadir tu correo electrónico y tu nombre a la configuración de Git. Esto te permitirá hacer commits y push a GitHub. Asegúrate de incluir el espacio después de `.email` y `.name`, y siempre recuerda cerrar tus comiilas ' ' y " ".
 
-1. Close and re-open a new Ubuntu terminal
-1. Type `git config --global user.email 'your email here in single quotes'`.
-1. Type `git config --global user.name 'Your Name In Single Quotes'`.
-1. Type `git config --global core.editor 'code --wait'`.
+1. Cierra y vuelve a abrir un nuevo terminal de Ubuntu.
+1. Escribe `git config --global user.email 'tu correo aquí con comillas simples'`.
+1. Escribe `git config --global user.name 'Tu Nombre en Comillas Simples'`.
+1. Escribe `git config --global core.editor 'code --wait'`.
 
-### [⇐ Previous](./4_updating_terminal.md) | [Next ⇒](./6_final_steps.md)
+### [⇐ Anterior](./4_updating_terminal.md) | [Siguiente ⇒](./6_final_steps.md)

@@ -1,32 +1,32 @@
-# Install Node.js
+﻿# Instala Node.js
 
-1. Open the [Node.js Download Page] in your browser.
-1. Click the button to download for the **LTS** verison
-1. Once the installer file downloads, open it and follow the on-screen instructions
+1. Abre la [página de descargas de Node.js] en tu navegador.
+1. Haz click en el botón para descargar la versión **LTS**.
+1. Una vez que se descargue el instalador, ábrelo y sigue las instrucciones en la pantalla.
 
-## Verify that Node is properly installed
+## Verifica que Node esté instalado adecuadamente
 
-1. Open the GitBash Terminal
-1. Run the following command: `node --version`
+1. Abre el terminal GitBash
+1. Ejecuta el siguiente comando: `node --version`
 
-Expected output should be this version or higher:
+El output esperado deberá ser esta versión o superior:
 
 > ```text
 > v17.8.0
 > ```
 
-Verify that Node.js is working:
+Verifica que Node.js esté funcionando:
 
-- Run the command:
+- Ejecuta el comando:
   - `node`
-- Type `5 + 5` and hit enter
-  - The result should be `10`. If you get `11` your computer is broken. ;)
-  - **Quit** node by pressing **control C** two times.
+- Escribe `5 + 5` y presiona enter
+  - El resultado debería ser `10`. Si obtienes `11` tu computadora se averió. ;)
+  - **Sal de** node presionando **control C** dos veces.
 
-Did you get similar output for both?
+¿Obtuviste un output similar para ambos comandos?
 
-If not ... [head here](../../error/error.md)
+Si no... [dirígente aquí](../../error/error.md)
 
 ---
 
-### [⇐ Previous](./3-vscode.md) | [Next ⇒](./5-tree.md)
+### [⇐ Anterior](./3-vscode.md) | [Siguiente ⇒](./5-tree.md)
