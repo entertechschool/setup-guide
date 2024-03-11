@@ -45,7 +45,7 @@ El output esperado deberá ser esta versión o una superior:
 > v8.1.0
 > ```
 
-Si no... [dirígente aquí](../../error/error.md)
+Si no... [dirígete aquí](../../error/error.md)
 
 ---
 

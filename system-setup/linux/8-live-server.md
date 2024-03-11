@@ -43,7 +43,7 @@ El output esperado deberá ser esta versión o superior:
 > live-server 1.2.1
 > ```
 
-Si no... [dirígente aquí](../../error/error.md)
+Si no... [dirígete aquí](../../error/error.md)
 
 ---
 

@@ -57,7 +57,7 @@ Verifica que Node.js esté funcionando:
 
 ¿Obtuviste un output similar para ambos comandos?
 
-Si no... [dirígente aquí](../../error/error.md)
+Si no... [dirígete aquí](../../error/error.md)
 
 ---
 
