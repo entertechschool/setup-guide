@@ -1,46 +1,46 @@
-# Code 301
+﻿# Code 301
 
-## MongoDB Database
+## Base de datos de MongoDB
 
-MongoDB is a NoSQL Database (Document Store) server that we will be using throughout Code 301. In this step, we'll be installing MongoDB on your system and preparing it for use.
+MongoDB es un servidor de base de datos NoSQL (almacén de documentos) que utilizaremos a lo largo de Code 301. En este paso, instalaremos MongoDB en tu sistema y lo prepararemos para su uso.
 
-MongoDB comes in 2 parts, a **client** and a **server** ... the **server** runs constantly, waiting for **clients** to connect to it so that they can store and retrieve data. The **server** does the actual management of the data. You'll get much deeper into the inner workings of these during your coursework.
+MongoDB viene en 2 partes, un **cliente** y un **servidor**... El **servidor** se ejecuta constantemente, esperando a que los **clientes** se conecten a él para poder almacenar y recuperar datos. El **servidor** se encarga de la gestión de los datos. Profundizarás mucho más en el funcionamiento interno de estos durante tus cursos.
 
-## Installation
+## Instalación
 
-The installation steps are slightly different if you're running a Mac or Windows/Linux. Please follow the appropriate directions below.
+Los pasos de instalación son ligeramente diferentes si estás ejecutando Mac o Windows/Linux. Sigue las instrucciones correspondientes a continuación.
 
-### Mac Users
+### Usuarios de Mac
 
-Open your terminal, and run the following commands to install the MongoDB client and server.
+Abre tu terminar y ejecuta el siguiente comando para instalar el cliente y el servidor de MongoDB.
 
-This will take a short time to complete. Once it does, you'll need to "start" the mongo database server so that we can make sure **clients** can connect.
+Esto tomará poco tiempo en completarse. Una vez que lo haga, tendrás que "iniciar" el servidor de base de datos mongo para que podamos asegurarnos de que los **clientes** se puedan conectar.
 
 ```bash
 brew tap mongodb/brew
 brew install mongodb-community
 ```
 
-After installation completes, run the following command to start the MongoDB Server:
+Después de que la instalación se complete, ejecuta el siguiente comando para iniciar el servidor de MongoDB:
 
 ```bash
 brew services start mongodb-community
 ```
 
-### Windows/WSL Users
+### Usuarios de Windows/WSL
 
-> Note: Because of ongoing WSL2 changes, local install may not simply work.  If this is the case, your instructor will have an online option they will share in class. If your MongoDB installation does not work after the first attempt, take a screen shot of the terminal to submit in place of the `mongosh` validation (mentioned below), and *move forward without local MongoDB installation.* 
+> Nota: Debido a los cambios continuos de WSL2, es posible que la instalación local no funcione fácilmente.  Si este es el caso, tu instructor tendrá una opción en línea que compartirá en clase. Si tu instalación de MongoDB no funciona después del primer intento, toma una captura de pantalla del terminal para enviarla en lugar de la validación `mongosh` (mencionada a continuación) y *continúa sin la instalación local de MongoDB.* 
 
-**Complete the following sections of [Microsoft's directions](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#install-mongodb{:target="_blank"}).**
+**Completa las siguientes secciones de [Instrucciones de Microsoft](https://docs.microsoft.com/es-es/windows/wsl/tutorials/wsl-database#install-mongodb{:target="_blank"}).**
 
-- [Install MongoDB](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#install-mongodb){:target="_blank"}
-- [Add the init script to start MongoDB as a service](https://docs.microsoft.com/en-us/windows/wsl/tutorials/wsl-database#add-the-init-script-to-start-mongodb-as-a-service){:target="_blank"}
+- [Instalación de MongoDB](https://docs.microsoft.com/es-es/windows/wsl/tutorials/wsl-database#install-mongodb){:target="_blank"}
+- [Añade el script de inicio para iniciar MongoDB como servicio](https://docs.microsoft.com/es-es/windows/wsl/tutorials/wsl-database#add-the-init-script-to-start-mongodb-as-a-service){:target="_blank"}
 
-Once you have finished, run `sudo service mongodb status` and you should see the status of `[ OK ]` on the left side of the screen; if not, run `sudo service mongodb start` to start up the database server.
+Una vez que hayas terminado, ejecuta `sudo service mongodb status` y deberás ver el estado `[ OK ]` en el lado izquierdo de la pantalla; de lo contrario, ejecuta `sudo service mongoDB start` para iniciar el servidor de base de datos.
 
-### Pure Linux Users
+### Usuarios de Linux
 
-Run these commands, in order, to install MongoDB. Note that for this installation, we'll be using `apt` instead of `brew`.
+Ejecuta estos comandos, en orden, para instralar MongoDB. Ten en cuenta que para esta instalación, utilizaremos `apt` en lugar de `brew`.
 
 ```bash
 wget -qO - https://www.mongodb.org/static/pgp/server-5.0.asc | sudo apt-key add -
@@ -50,7 +50,7 @@ sudo apt-get update
 sudo apt-get install -y mongodb-org
 ```
 
-After installation completes, we'll need to setup MongoDB as a "service" so that it can easily be restarted.  Enter the following commands, in order, to set this up:
+Una vez que se haya completado la instalación, tendremos que configurar MongoDB como un "servicio" para que pueda reiniciarse fácilmente.  Escribe los siguientes comandos en orden para configurarlo:
 
 ```bash
 sudo curl -s https://raw.githubusercontent.com/mongodb/mongo/master/debian/init.d -o /etc/init.d/mongod
@@ -58,17 +58,17 @@ sudo chmod 755 /etc/init.d/mongod
 sudo service mongod start
 ```
 
-**On Ubuntu Linux**, mongo will now automatically restart on every reboot.
+**En Ubuntu Linux**, mongo ahora se reiniciará automáticamente en cada inicio.
 
-## Validate that clients can connect
+## Valida que los clientes se puedan conectar
 
-Now, let's make sure we can connect to the MongoDB server. Run this command:
+Ahora, asegurémonos de que podemos conectarnos al servidor de MongoDB. Ejecuta este comando:
 
 ```bash
 mongosh
 ```
 
-You should see something similar to the following:
+Deberás ver algo parecido a lo siguiente:
 
 ```bash
 Current Mongosh Log ID: 63604c9f419a468d5c5fd283
@@ -81,12 +81,12 @@ For mongosh info see: https://docs.mongodb.com/mongodb-shell/
 >
 ```
 
-The `>` at the bottom is what you're really looking for. It's a prompt that lets you know you are connected with the **mongosh client** to your running **MongoDB server**
+La `>` en la parte inferior es lo que estás buscando. Es un prompt que te permite saber que estás conectado con el **cliente mongosh** a tu **servidor MongoDB** en ejecución
 
-Take a screen shot of your terminal when you type in `mongosh`. You will submit this screen shot along with your other computer set-up screen shots for this assignment.
+Toma una captura de pantalla de tu terminal cuando escribas `mongosh`. Envía esta captura de pantalla junto con las capturas de configuración de tu computadora para esta tarea.
 
-Type `exit` to return to your bash shell. MongoDB is successfully installed.
+Escribe `exit` para volver a tu bash shell. MongoDB se ha instalado correctamente.
 
 ---
 
-### [⇐ Previous](./) | [Next ⇒](./2-code-challenges)
+### [⇐ Anterior](./) | [Siguiente ⇒](./2-code-challenges)

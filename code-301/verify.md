@@ -1,8 +1,8 @@
-# Verify Your Setup
+﻿# Verifica tu Configuración
 
-> By the time you’ve completed the guide, you should be able to run the following commands in your terminal and see the expected output.  Your versions may be slightly different than what is listed here due to recent updates.
+> Cuando hayas completado la guía, deberás poder ejecutar los siguientes comandos en tu terminal y ver el output esperado.  Tus versiones podrán ser un poco diferentes a lo que está listado aquí debido a las actualizaciones recientes.
 
-Run the following set of commands:
+Ejecuta los siguientes comandos:
 
 ```bash
 mongod --version
@@ -10,7 +10,7 @@ mongo --version
 eslint --version
 ```
 
-You output should resemble the following, with your version numbers likely being different:
+Tu output deberá ser similar al siguiente, y es probable que los números de las versiones sean diferentes:
 
 ```bash
 db version v4.4.1
@@ -40,8 +40,8 @@ Build Info: {
 v8.16.0
 ```
 
-Take and save a screenshot showing the output of these commands
+Toma y guarda una captura de pantalla que muestre el resultado de estos comandos
 
 ---
 
-### That's It! [Back To the Beginning](./README.md)
+### ¡Esto es todo! [De vuelva al inicio](./README.md)

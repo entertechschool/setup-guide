@@ -1,11 +1,11 @@
-# Code 301 Setup
+﻿# Configuración de Code 301
 
-For Code 301, we'll need some additional applications and utilities installed, including the MongoDB database and getting your code challenges repository created and operational
+Para Code 301, necesitaremos instalar algunas aplicaciones y servicios adicionales, incluyendo la base de datos MongoDB, y crear y poner en funcionamiento tu repositorio de desafíos de código
 
-> NOTE: Before continuing on, please [verify](../system-setup/11-verify) that your system has the core developer tools properly configured and installed. **Do not move ahead until verification has been completed.**
+> NOTA: Antes de continuar, por favor [verifica](.. /system-setup/verify) que el sistema tiene las herramientas principales para desarrolladores correctamente configuradas e instaladas. **No avances hasta que se haya completado la verificación.**
 
-**OPEN YOUR TERMINAL** and let's get started!
+¡**ABRE TU TERMINAL** y comencemos!
 
 ---
 
-### [⇐ Previous](./README) | [Next ⇒](./1-database)
+### [⇐ Anterior](./README) | [Siguiente ⇒](./1-database)

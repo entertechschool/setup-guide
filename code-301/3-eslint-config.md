@@ -1,15 +1,15 @@
-# Code 301 Setup
+﻿# Configuración de Code 301
 
-## ESLINT Configuration for React
+## Configuración de ESLINT para React
 
-When building an application with React, an `eslint` configuration file is included.  To avoid conflicting linter rules, let's remove the configuration file that you created previously.
+Al crear una aplicación con React, se incluye un archivo de configuración `eslint`.  Para evitar reglas de linter en conflicto, vamos a eliminar el archivo de configuración que creaste anteriormente.
 
 `rm ~/.eslintrc.json`
 
 ----
 
-Your computer is all set and ready for Code 301!
+¡Tu computadora está lista para el Code 301!
 
 ----
 
-### [⇐ Previous](./2-code-challenges) | [Home ⇒](./)
+### [⇐ Anterior](./2-code-challenges) | [Inicio ⇒](./)
