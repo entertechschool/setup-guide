@@ -6,7 +6,7 @@ Como parte de tu rutina diaria en Code 301, realizarás un desafío de código. 
 
 Sigue estos pasos:
 
-1. [Haz click aquí](https://github.com/codefellows/data-structures-and-algorithms/generate){:target="_blank"} para crear un nuevo repositorio, basado en la plantilla oficial de DS&A.
+1. [Haz click aquí](https://github.com/entertechschool/data-structures-and-algorithms/generate){:target="_blank"} para crear un nuevo repositorio, basado en la plantilla oficial de DS&A.
    - Nombra este repositorio exactamente como: `data-structures-and-algorithms`.
    - La descripción deberá ser "Practica con Estructuras de Datos y Algoritmos".
    - **No marques la casilla que dice** "Include All Branches".
