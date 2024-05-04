@@ -1,6 +1,6 @@
 ﻿# Instala Node.js
 
-1. Abre la [página de descargas de Node.js] en tu navegador.
+1. Abre la [página de descargas de Node.js](https://nodejs.org/en/download) en tu navegador.
 1. Haz click en el botón para descargar la versión **LTS**.
 1. Una vez que se descargue el instalador, ábrelo y sigue las instrucciones en la pantalla.
 
