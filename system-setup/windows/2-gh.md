@@ -5,7 +5,7 @@ Instala la herramienta de línea de comandos `gh` desde GitHub
 ---
 
 1. Cierra cualquier ventana de **GitBash** que tengas abierta.
-1. Entra la página de descargas de [GitHub CLI].
+1. Entra la página de descargas de [GitHub CLI](https://cli.github.com/).
 1. Haz click en el botón download.
 1. Una vez que se descargue el instalador, abre el archivo y sigue las instrucciones en la pantalla.
 
