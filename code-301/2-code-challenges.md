@@ -2,7 +2,7 @@
 
 ## Estructuras de Datos y Algoritmos
 
-Como parte de tu rutina diaria en Code 301, realizarás un desafío de código. Para hacerlo correctamente se necesita un repositorio específico, configurado correctamente. En este repositorio, completarás tu trabajo diario.
+Como parte de tu rutina diaria en Code 301, realizarás un code challenge. Para hacerlo correctamente se necesita un repositorio específico, configurado correctamente. En este repositorio, completarás tu trabajo diario.
 
 Sigue estos pasos:
 
@@ -14,8 +14,8 @@ Sigue estos pasos:
 1. haz `cd` en el nuevo repositorio en tu terminal.
 1. Escribe estos comandos, en orden
    - `cd javascript` - para entrar en la carpeta javascript.
-   - `npm install` - el cual instalará algunas librerías que utilizaremos para ayudarte a testear tus desafíos de código.
-   - `npm test` - el cual hará una prueba.
+   - `npm install` - el cual instalará algunas librerías que utilizaremos para ayudarte a testear tus code challenges.
+   - `npm test` - el cual realizará un test.
    - Deberás ver un mensaje como el siguiente, que indica que las cosas están configuradas correctamente y que los tests se están superando:
 
    ```bash
