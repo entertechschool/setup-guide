@@ -4,7 +4,7 @@ Ya sea que estás comenzando con la clase, necesitas configurar un nuevo sistema
 
 **Esta configuración se deberá completar en una sola sesión.** Por favor estima un mínimo de **1** hora para completarla.
 
-No necesitas entender todo lo que está pasando en cada paso de este proceso. Configurar todo correctamente es un paso vital que te permitirá utilizar las tecnologías necesitas a lo largo del programa.
+No necesitas entender todo lo que está pasando en cada paso de este proceso. Configurar todo correctamente es un paso vital que te permitirá utilizar las tecnologías que necesitas a lo largo del programa.
 
 *NOTA: Durante este proceso, necesitarás descargar algunos archivos. Para este proceso de configuración, por favor haz **click derecho** en los enlaces para **abrirlos en una nueva pestaña** cuando se te pida para descargar e instalar. Esto es para que no te pierdas.*
 
