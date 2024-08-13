@@ -11,7 +11,7 @@ Sigue estos pasos:
    - La descripción deberá ser "Practica con Estructuras de Datos y Algoritmos".
    - **No marques la casilla que dice** "Include All Branches".
 1. Clona el repositorio recién creado en tu equipo, en tu carpeta de proyectos.
-1. haz `cd` en el nuevo repositorio en tu terminal.
+1. Haz `cd` en el nuevo repositorio en tu terminal.
 1. Escribe estos comandos, en orden
    - `cd javascript` - para entrar en la carpeta javascript.
    - `npm install` - el cual instalará algunas librerías que utilizaremos para ayudarte a testear tus code challenges.
