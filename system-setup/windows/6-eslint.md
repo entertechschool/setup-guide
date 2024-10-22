@@ -72,13 +72,15 @@ Deberías ver un output similar a esto:
 
 El siguiente paso es crear otro nuevo directorio par tu curso actual, aquí dentro del directorio "courses".
 
-Si estás en el curso 102, crea un directorio 102, si estás en el 201, crea un directorio 201, etc.
+Si estás en el curso 101, crea un directorio 101, si estás en el 201, crea un directorio 201, etc.
 
 > ```bash
 > # EJEMPLO
-> mkdir code-102
+> mkdir code-101
 > # O
 > mkdir code-201
+> # O
+> mkdir code-301
 > # ETC ...
 > ```
 

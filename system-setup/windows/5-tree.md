@@ -4,8 +4,9 @@ Tree es una aplicación útil que te permitirá mirar a la estructura del direct
 
 ```text
 ── courses
-    ├── code102
+    ├── code101
     ├── code201
+    ├── code301
 ```
 
 ---
