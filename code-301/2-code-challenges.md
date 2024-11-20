@@ -27,7 +27,7 @@ Sigue estos pasos:
    - Deberás ver un mensaje como el siguiente, que indica que las cosas están configuradas correctamente y que los tests se están superando:
 
    ```bash
-    PASS  code-challenges/proof-of-life.test.js
+    PASS  ./proof-of-life.test.js
      proof of life
       ✓ lives (2 ms)
 
