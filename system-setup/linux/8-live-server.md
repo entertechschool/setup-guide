@@ -1,6 +1,6 @@
 ﻿# live-server
 
-Esta es un servidor simulado de desarrollo de páginas web con capacidad de actualización en tiempo real. Esto te permitirá ver tu página web antes de desplegarla.
+Este es un servidor simulado de desarrollo de páginas web con capacidad de actualización en tiempo real. Esto te permitirá ver tu página web antes de desplegarla.
 
 ---
 
@@ -18,7 +18,8 @@ En tu terminal, ejecuta:
 > live-server 1.2.1
 > ```
 >
-> Continúa a la [siguiente página](./9-eslint.md)
+<!-- > Continúa a la [siguiente página](./9-eslint.md) -->
+> Continúa a la [siguiente página](./10-vscode.md)
 >
 > ---
 > **O si** el output no es similar a lo anterior:
@@ -47,4 +48,5 @@ Si no... [dirígete aquí](../../error/error.md)
 
 ---
 
-### [⇐ Anterior](./7-node.md) | | [Siguiente ⇒](./9-eslint.md)
+<!-- ### [⇐ Anterior](./7-node.md) | | [Siguiente ⇒](./9-eslint.md) -->
+### [⇐ Anterior](./7-node.md) | | [Siguiente ⇒](./10-vscode.md)

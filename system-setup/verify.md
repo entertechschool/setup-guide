@@ -12,10 +12,10 @@ Ejecuta estos comandos y compáralos con el output esperado.
   - Output esperado: `v17.8.0`
 - `npm --version`
   - Output esperado: `8.3.0`
-- `eslint --version`
-  - Output esperado: `v8.1.0`
-- `tree --version`
-  - Output esperado: `tree v2.0.1 (c) 1996 - 2018 ...`
+<!-- - `eslint --version`
+  - Output esperado: `v8.1.0` -->
+<!-- - `tree --version`
+  - Output esperado: `tree v2.0.1 (c) 1996 - 2018 ...` -->
 - `git config --list`
   - Deberá contener por lo menos lo siguiente:
   - `user.name=TU NOMBRE`
@@ -38,7 +38,7 @@ Ejecuta el siguiente comando
 curl -Ls https://bit.ly/enter-setup-verify-sh-1 | bash
 ```
 
-Deberías obtener un mensaje de éxito. Si en vez de eso ver `Something went wrong!`, mira el output con cuidado, y vuelve a intentar los pasos en la parte 1 para comenzar a solucionar los problemas. Obtén [ayuda](../../error/error.md) de ser necesario.
+Deberías obtener un mensaje de éxito. Si en vez de eso, vez `Algo salió mal!`, mira el output con cuidado, y vuelve a intentar los pasos en la parte 1 para comenzar a solucionar los problemas. Obtén [ayuda](../../error/error.md) de ser necesario.
 
 ---
 

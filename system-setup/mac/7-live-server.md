@@ -18,7 +18,8 @@ En tu terminal, ejecuta:
 > live-server 1.2.1
 > ```
 >
-> Continúa a la [siguiente página](./8-eslint.md)
+<!-- > Continúa a la [siguiente página](./8-eslint.md) -->
+> Continúa a la [siguiente página](./9-vscode.md)
 >
 > ---
 > **O si** el output no es similar a lo anterior:
@@ -47,4 +48,5 @@ Si no... [dirígete aquí](../../error/error.md)
 
 ---
 
-### [⇐ Anterior](./6-node.md) | | [Siguiente ⇒](./8-eslint.md)
+<!-- ### [⇐ Anterior](./6-node.md) | | [Siguiente ⇒](./8-eslint.md) -->
+### [⇐ Anterior](./6-node.md) | | [Siguiente ⇒](./9-vscode.md)

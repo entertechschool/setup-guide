@@ -21,7 +21,8 @@ En tu terminal, ejecuta:
 >   init.defaultbranch=main
 > ```
 >
-> Entonces sigue a la [siguiente página](./5-tree.md)
+<!-- > Entonces sigue a la [siguiente página](./5-tree.md) -->
+> Entonces sigue a la [siguiente página](./6-ohmyzsh.md)
 >
 > ---
 > **O si** el output no es similar a lo anterior:
@@ -75,4 +76,5 @@ Reemplaza `TU NOMBRE COMPLETO` y `TU CORREO ELECTRÓNICO` dentro de las comillas
 
 ---
 
-### [⇐ Anterior](./3-homebrew.md) | [Siguiente ⇒](./5-tree.md)
+<!-- ### [⇐ Anterior](./3-homebrew.md) | [Siguiente ⇒](./5-tree.md) -->
+### [⇐ Anterior](./3-homebrew.md) | [Siguiente ⇒](./6-ohmyzsh.md)

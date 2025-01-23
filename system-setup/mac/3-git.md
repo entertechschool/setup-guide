@@ -21,7 +21,8 @@ En tu terminal, ejecuta:
 >   init.defaultbranch=main
 > ```
 >
-> Entonces sigue a la [siguiente página](./4-tree.md)
+<!-- > Entonces sigue a la [siguiente página](./4-tree.md) -->
+> Entonces sigue a la [siguiente página](./5-ohmyzsh.md)
 >
 > ---
 > **O si** el output no es similar a lo anterior:
@@ -73,4 +74,5 @@ Reemplaza `TU NOMBRE COMPLETO` y `TU CORREO ELECTRÓNICO` dentro de las comillas
 - `git config --global core.editor "code --wait"`
 - `git config --global init.defaultbranch main`
 
-### [⇐ Anterior](./2-homebrew.md) | [Siguiente ⇒](./4-tree.md)
+<!-- ### [⇐ Anterior](./2-homebrew.md) | [Siguiente ⇒](./4-tree.md) -->
+### [⇐ Anterior](./2-homebrew.md) | [Siguiente ⇒](./5-ohmyzsh.md)

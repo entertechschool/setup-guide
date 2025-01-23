@@ -29,4 +29,5 @@ Si no... [dirígete aquí](../../error/error.md)
 
 ---
 
-### [⇐ Anterior](./3-vscode.md) | [Siguiente ⇒](./5-tree.md)
+<!-- ### [⇐ Anterior](./3-vscode.md) | [Siguiente ⇒](./5-tree.md) -->
+### [⇐ Anterior](./3-vscode.md) | [Siguiente ⇒](../verify.md)
