@@ -33,7 +33,6 @@ Ahora añadiremos algunas funcionalidades a tu nuevo editor de código instaland
   - ESLint
   - markdownlint
   - editorconfig
-  - HTML Preview
   - Thunder Client
 
 Hay más extensiones para escoger que harán más sencilla tu vida como programador. Tus instructores, TA y compeñeros podrán decirte lo que funciona mejor para ellos.
