@@ -1,6 +1,6 @@
 # Configuración de Code 301
 
-## Estructuras de Datos y Algoritmos
+## Algoritmos y Estructuras de Datos
 
 Como parte de tu rutina en Code 301, realizarás retos de código **"code challenge"**. Para hacerlo correctamente se necesita un repositorio específico, configurado correctamente. En este repositorio, completarás tu trabajo diario.
 
@@ -8,7 +8,7 @@ Sigue estos pasos:
 
 1. [Haz click aquí](https://github.com/entertechschool/code-challenges/generate){:target="_blank"} para crear un nuevo repositorio, basado en la plantilla oficial de Enter Tech School
    - Nombra este repositorio exactamente como: `code-challenges`.
-   - La descripción deberá ser "Retos de Estructuras de Datos y Algoritmos".
+   - La descripción deberá ser "Retos de Algoritmos y Estructuras de Datos".
    - **No marques la casilla que dice** "Include All Branches".
 1. Clona el repositorio recién creado en tu equipo, en tu carpeta de proyectos.
 
